@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+/* caso a url da imagem estivesse ascima da pasta sugerida se iniciaria sempre uma nova sequencia de pontos, ex:
+
+../../../../ até chegar ao nível de pasta desejado, "isto é bem pouco usado pois o ideal é que esteja em uma pasta junto com o html
+*/
+#card{
+    width: 400px;
+    height: 200px;
+    padding: 1px 20px;
+    box-sizing: border-box;
+    background: url(../assets/backgorund.png) no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.InstagramLI{
+    list-style-image: url(../assets/Instagram.png);
+
+}
+
+.LinkedinLI{
+    list-style-image: url(../assets/Linkedin.png);
+
+}
+
+.FacebookLI{
+    list-style-image: url(../assets/Facebook.png);
+
+}

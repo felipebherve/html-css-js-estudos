@@ -1,0 +1,83 @@
+body{margin: 20px; }
+
+h1{
+    background: linear-gradient(to right, black, white , 20%, black);
+    color: white;
+    border: 0ch;
+    border-radius:20px;
+    padding: 20px;
+    margin:0px 0px 5px 0px;
+    text-align: center;
+
+    text-shadow: 2px 4px 10px white;
+}
+
+.texto{
+    text-align:justify;
+}
+
+body{
+    font-family: "Source Serif Pro", monospace, Arial, Helvetica, sans-serif;
+}
+
+.lista1{
+    
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+
+.botao1{
+    /* color: white;
+    border: 1px solid;
+    border-radius: 10px 35px 10px 35px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    background: linear-gradient(to right, black, black); */
+    display:inline;
+    margin: 30px 0px 20px 0px;
+} 
+
+.link1{
+    color: white;
+    text-shadow: 2px 4px 30px white;
+    text-decoration:none;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px 35px 10px 35px;
+    padding: 0px 10px 0px 10px;
+    margin: 20px 0px;
+    background:black;
+    display:inline;
+    
+    
+   
+    
+}
+
+
+.link1:visited{
+    background-color: white;
+    /* border: 1px solid; */
+    border-color: black;
+    /* border-radius: 10px 35px 10px 35px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    display:inline; */
+
+    color: black;
+    text-shadow: 2px 4px 10px black;
+    /* text-decoration:solid;
+    text-align: center; */
+
+}
+
+.link1:hover{
+    padding: 5px 15px 5px 15px;
+}
+
+.link1:active{
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,229 @@
+/* Color Base 
+    #007BFF
+
+    #FF7F50
+
+    Cor Primária
+#205791	#007BFF	#76A8DE  
+
+    Cor Complementar
+#E8833C	#FF7F50	#E8513C
+
+    Tons de Cinza
+#262b30	#4b5661	#6b7b8c	#899db3
+
+
+
+
+
+*/
+
+/*  Logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+.logo{
+    border: solid #007BFF;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0 0 20px #205791bb;
+    overflow: visible;
+    margin: auto;
+ 
+    
+
+}
+.logo h1{
+    font-size: 25px;
+    text-shadow: 0 0 30px #205791;
+    font-weight: bold;
+    font-family: 'Major Mono Display', monospace;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    border: solid #007BFF;
+    box-shadow: 0 0 20px #205791bb;
+    padding: 5px;
+    position: relative;
+}
+
+
+/*  Tags Básicas ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #899db3;
+    margin: 0px 10px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2{
+    color: #007BFF;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.AllContent{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*  Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+header{
+    text-align: center;
+    background-color:#205791;
+    display: block;
+    border-radius: 30px 30px 0px 0px;
+    border-bottom: #FF8E2B solid 5px;
+    
+}
+
+
+/*  Barra de Navegação ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+.NaviHeaderBar{
+    background-color: #4b5661 ;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 1000px;
+    
+}
+
+.NaviBox{
+    display: contents;
+    text-align: right;
+    display: inline-block;
+
+}
+
+.NaviBox ul{
+    padding: 0;
+    margin: 0;
+}
+
+            /* ABAS */
+.NaviBox li{
+    display: inline;
+    background-color: #FF8E2B;
+    border-radius: 10px 5px 20px 5px;
+    padding: 5px;
+
+}
+
+.NaviBox li:hover{
+    transform: scale(1.1);
+}
+
+.NaviBox a{
+
+}
+
+.Contacts{
+  display: inline-block;
+ text-align: right;
+ float: right;
+}
+.Contacts ul{
+    padding: 0;
+    margin: 0;
+}
+.Contacts li{
+    display: inline-block;
+    background-color: #FF8E2B;
+    border-radius: 10px 5px 20px 5px;
+    padding: 5px;
+}
+
+
+/*  Container Padrão  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.ContainerBase{
+    background-color: #E0EAF5;
+    color: #2E77AE;
+
+}
+
+.ContainerBase h2{
+
+}
+
+/*  Intro ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.intro{
+
+}
+
+.intro main{
+
+}
+
+.ImgIntro{
+
+}
+
+/*  Projetos/Conteúdo  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.Content{
+
+}
+
+.ContentList{
+
+}
+
+.ContentList li{
+
+}
+
+/*  About  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.About h2{
+
+}
+
+.About p{
+
+}
+
+/*  Mail Capture  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.MailCapture{
+
+}
+
+.MailCapture input{
+
+}
+
+.SubmitButton{
+
+}
+
+/*  Extra  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.Extra{
+
+}
+
+
+
+
+
+
+

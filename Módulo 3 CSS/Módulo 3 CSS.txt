@@ -1,0 +1,66 @@
+Módulo 3 - CSS Básico
+
+	- Aula 1 "Introdução - CSS Básico"
+
+CSS Inline - Criar o código css num atributo HTML 
+	ex: <p styçe="color:red">texto</p>     <!~~ código css inserido por linha~~>
+
+CSS Interno: escrito dentro do head
+	ex: <head>
+	      <style>
+		p{ color:red }
+	      </style>			<!~~ código CSS inserido em bloco~~>
+	    <head>
+
+	    <boddy>
+		<p>texto</p>
+	    <boddy>
+CSS Externo
+	Tira o arquivo css de dentro do arquivo html e coloca em um arquivo diferente
+
+-------------------------------------<hr>----------------------------------------------
+
+	- Aula 2 "CSS inline"
+
+Aprendemos a usar a função Style, ela deve conter dentro da tag
+	Ex: <p style="collor:red"> ou <h1 style="collor:blue">
+
+-------------------------------------<hr>----------------------------------------------
+
+	- Aula 3 "CSS interno"
+
+Aprendemos a manter uma tag para todo arquivo com apenas um estilo iniciando a
+ordem no <head> </head>
+	Ex: 
+	    <style>
+	        h3 {color: darkmagenta}
+	    </style>
+
+-------------------------------------<hr>----------------------------------------------
+
+	- Aula 4 "CSS externo"
+
+O css externo é um link para um novo arquivo com propriedades CSS
+é necessário criar um arquivo com nome style.css e executar o comando no <head>
+de link e abreviação igual quando usamos o comando para colocar um item clicável
+sendo href (hyperlink reference)
+	Ex:
+		<link rel="stylesheet" href="style.css">
+
+
+-------------------------------------<hr>----------------------------------------------
+
+	- Aula 5 "Classes e Ids"
+
+
+
+
+
+
+
+
+
+
+
+
+

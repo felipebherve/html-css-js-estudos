@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2><strong>Aula 13/26 - Condicionais IF</strong></h2>
+
+        <p>No JavaScript, as condicionais <b>if</b> e <b>else</b> são usadas para controlar o fluxo de execução do
+            código com base em
+            condições. Elas permitem que você tome decisões e execute diferentes blocos de código dependendo de se uma
+            determinada condição é verdadeira ou falsa.
+        </p>
+
+        <p>Aqui está a estrutura básica das condicionais <b>if</b> e <b>else</b> em JavaScript:
+        </p>
+
+        <pre>
+
+        if (condição) 
+        {// Código a ser executado se a condição for verdadeira} 
+
+        else (opção caso o retorno seja falso) 
+        {// Código a ser executado se a condição for falsa}
+
+        </pre>
+
+        <p>Como primeiro exemplo o caso de um site que pergunte se o usuário é ou não maior de 18 anos.</p>
+
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula13-1.png" alt="Código exemplo"
+                style="height: 300px;"></div>
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula13-1.1.png" alt="resultado pergunta prompt"
+                style="height: 150px;"></div>
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula13-1.2.png" alt="Alert com resultado"
+                style="height: 150px;"></div>
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula13-1.3.png" alt="Prompt com idade menor"
+                style="height: 150px;"></div>
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula13-1.4.png" alt="Alert com resultado"
+                style="height: 150px;"></div>
+
+        <p>Aqui estão os passos básicos de como isso funciona:</p>
+
+        <p>A expressão dentro dos parênteses após <b>if</b> é avaliada. Se a expressão for <b>verdadeira</b>, o bloco de
+            código dentro
+            das chaves <b>{}</b> logo após o <b>if</b> será executado. Se a expressão for <b>falsa</b>, o bloco de
+            código dentro das chaves
+            <b>{}</b> após o <b>else (se houver)</b> será executado.
+        </p>
+
+        <p>O bloco de código dentro das chaves <b>{}</b> contém as instruções que serão executadas se a condição
+            correspondente
+            for verdadeira ou falsa, dependendo se é um bloco <b>if</b> ou um bloco <b>else.</b>
+        </p>
+
+        <p>Você também pode ter várias condições usando <b>else if</b>, que é útil quando você tem mais de duas possibilidades
+            a serem avaliadas:
+        </p>
+
+        <div><img src="./ImagensAulas/Aula13-2.png" alt="Exemplo de uso de else If" style="height: 350px;"></div>
+
+        <p>Neste exemplo, o código avalia a variável nota e atribui uma letra de nota com base em diferentes intervalos de pontuação.</p>
+
+
+    </article>
+</body>
+
+</html>
+
+
+<!-- 
+    <script>
+
+    var idade = prompt("Digite sua idade.")
+
+    if (idade >= 18)
+        alert("Pode continuar no site!")
+    else
+        alert("Volte quando completar 18 anos.")
+    
+</script> 
+-->
+<!--
+     <script>
+
+    var nota = prompt("Digite sua nota de 0 a 100");
+
+    if (nota >= 90) 
+    alert("Beirando a perfeição") 
+    else if (nota >= 80) 
+    alert("Pouquissimo para ver o céu, não desista.") 
+    else if (nota >= 70) 
+    alert("Dessa vez passa mas poderia se esforçar mais.")
+    else if(nota <= 69) 
+    alert("Devia ter ido ver o filme do pelé.")
+
+</script> 
+-->

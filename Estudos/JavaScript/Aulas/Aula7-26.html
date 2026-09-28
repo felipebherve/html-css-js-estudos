@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 7/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2>Aula 7/26 - Atribuições</h2>
+
+        <p>Em JavaScript, "atribuições" referem-se ao processo de atribuir um valor a uma variável ou propriedade. É uma
+            operação fundamental em programação que permite armazenar e manipular dados. Existem vários operadores de
+            atribuição em JavaScript que podem ser usados para realizar diferentes tipos de atribuições. Alguns dos
+            operadores de atribuição mais comuns incluem:</p>
+
+        <h3>Atribuição Básica (=):</h3> <p> O operador de atribuição mais simples é o sinal de igual (=). Ele atribui o
+            valor à
+            variável à esquerda.</p>
+
+        <div style="text-align: center;">
+            <img style="width: 500px; margin: auto;" src="./ImagensAulas/Aula7-Atribuições0Básica.png"
+                alt="Atribuição a uma variável por =">
+        </div>
+
+        <h3>Atribuição com Operadores de Cálculo (+=, -=, =, /=, %=):</b> <p>Esses operadores combinam uma operação
+            matemática
+            com uma atribuição.</p>
+
+        <div style="text-align: center;display: inline-block;">
+            <img style="width: 300px; margin: auto;" src="./ImagensAulas/Aula7-Atribuições1Soma.png"
+                alt="Atribuição soma">
+        </div>
+        <div style="text-align: center;display: inline-block;">
+            <img style="width: 300px; margin: auto;" src="./ImagensAulas/Aula7-Atribuições2Subtração.png"
+                alt="Atribuição subtração">
+        </div>
+        <div style="text-align: center;display: inline-block;">
+            <img style="width: 300px; margin: auto;" src="./ImagensAulas/Aula7-Atribuições3Multiplicação.png"
+                alt="Atribuição multiplicação">
+        </div>
+        <div style="text-align: center;display: inline-block;">
+            <img style="width: 300px; margin: auto;" src="./ImagensAulas/Aula7-Atribuições4Divisão.png"
+                alt="Atribuição Divisão">
+        </div>
+        <div style="text-align: center;display: inline-block;">
+            <img style="width: 300px; margin: auto;" src="./ImagensAulas/Aula7-Atribuições5Módulo.png"
+                alt="Atribuição Módulo">
+        </div>
+
+        <h3>Atribuição de Incremento/Decremento (++/--):</h3> <p> Esses operadores são usados para aumentar ou diminuir o
+            valor de
+            uma variável em uma unidade.</p>
+
+        <div style="text-align: center; display: inline-block;">
+            <img style="margin: auto; height: 250px;" src="./ImagensAulas/Aula7-Atribuições2.2incremento.png"
+                alt="Atribuição de incremento">
+        </div>
+        <div style="text-align: center; display: inline-block;">
+            <img style="margin: auto; height: 250px;" src="./ImagensAulas/Aula7-Atribuições2.3decremento.png"
+                alt="Atribuição de Decremento">
+        </div>
+
+        <h2><b style="color: red;">Complemento de aula:</b> <br>A partir daqui serão atribuições mais complexas que exigirão um bloco de aula para cada uma.</h2>
+        
+
+    
+   
+        <h3>Atribuição Condicionada (Operador Ternário ?)</h3>
+        <p>Permite atribuir um valor a uma variável com base em uma condição.</p>
+        <pre>
+        let age = 20;
+        let canVote = (age >= 18) ? "Sim" : "Não"; // Se age for maior ou igual a 18, canVote será "Sim", caso contrário, será "Não"
+        </pre>
+
+        <h3>Atribuição com Destruturação ([a, b] = [1, 2])</h3>
+        <p>Atribui valores de elementos de uma estrutura (como um array) a variáveis individuais.</p>
+        <pre>
+        let [a, b] = [1, 2]; // a terá o valor 1, b terá o valor 2
+        </pre>
+
+        <h3>Atribuição com Propriedades de Objetos (obj.prop = value)</h3>
+        <p>Atribui um valor a uma propriedade de um objeto.</p>
+        <pre>
+        let person = {};
+        person.name = "Alice"; // Atribui o valor "Alice" à propriedade name do objeto person
+        </pre>
+
+        <h3>Atribuição com Descanso (...rest)</h3>
+        <p>Atribui um conjunto de valores restantes a uma variável (usado em desestruturação).</p>
+        <pre>
+        let [first, ...rest] = [1, 2, 3, 4]; // first será 1, rest será [2, 3, 4]
+        </pre>
+
+        <h3>Atribuição com Propriedades Computadas (obj[propName] = value)</h3>
+        <p>Atribui um valor a uma propriedade de um objeto usando o nome da propriedade calculado em tempo de execução.
+        </p>
+        <pre>
+        let propName = "age";
+        let person = {};
+        person[propName] = 30; // Atribui o valor 30 à propriedade "age" do objeto person
+        </pre>
+
+        <h3>Atribuição com Operadores Bit a Bit (&lt;&lt;=, &gt;&gt;=, &amp;=, |=, ^=)</h3>
+        <p>Executa operações bit a bit e atribui o resultado à variável à esquerda.</p>
+        <pre>
+        let binaryValue = 0b1100; // Representação binária de 12
+        binaryValue &lt;&lt;= 2; // Desloca os bits para a esquerda por 2 posições; Resultado: binaryValue = 0b110000 (48 em decimal)
+        </pre>
+
+
+    </article>
+
+</body>
+
+</html>
+
+<script>
+
+    let a = 1;
+    a--;
+
+</script>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+
+    <article class="ContainerAula">
+
+        <h2>Aula 11/26 - Comportamentos numéricos em Strings</h2>
+
+        <p>No JavaScript, parseInt e parseFloat são duas funções integradas que permitem converter strings em números.
+            Vamos entender cada uma delas:</p>
+
+        <h3><strong>1º parseInt:</strong></h3>
+
+        <p>A função parseInt é usada para converter uma string em um número inteiro (número sem casas decimais). Ela
+            analisa a string até encontrar um caractere que não seja um dígito válido para formar o número. Qualquer
+            caractere não numérico após o primeiro caractere válido será ignorado. A função também pode receber um
+            segundo argumento opcional que especifica a base numérica em que a string está escrita (por exemplo, base
+            10, base 16, etc.).</p>
+
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula11-1.png" alt="Exemplo de parseInt"
+                style="height: 300px;">
+        </div>
+
+        <h3><strong>2º parseFloat:</strong></h3>
+
+        <p>A função parseFloat é usada para converter uma string em um número de ponto flutuante (número com casas
+            decimais). Ela analisa a string até encontrar um caractere que não seja um dígito válido para formar o
+            número. Ao contrário do parseInt, a função parseFloat reconhece o ponto decimal como um caractere válido.
+        </p>
+
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula11-2.png" alt="Exemplo de parseFloat"
+                style="height: 300px;">
+        </div>
+
+        <p><strong>Lembre-se de que ambas as funções podem não funcionar como esperado se a string de entrada não for um
+                número válido. Se a string não puder ser analisada como um número, o resultado será NaN
+                (Not-a-Number).</strong></p>
+        <p><strong>Exemplo com resultado NaN:</strong></p>
+
+        <div style="display: inline-block;"><img src="./ImagensAulas/Aula11-3.png" alt="Exemplo de erro"
+                style="height: 300px;">
+        </div>
+
+        <p>Em resumo, parseInt é usado para converter strings em números inteiros, enquanto parseFloat é usado para
+            converter strings em números de ponto flutuante. Certifique-se de usar a função apropriada de acordo com o
+            tipo de número que você deseja obter.</p>
+
+
+    </article>
+</body>
+
+</html>
+
+<script>
+
+    const strNaN = "abc";
+    const NaNResult = parseInt(strNaN);
+    console.log(NaNResult); // Saída: NaN
+
+</script>

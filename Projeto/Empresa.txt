@@ -1,0 +1,36 @@
+Projeto MEI
+
+Criar uma plataforma onde possa gerir os funcionáriios de 
+vendas para que eles criem instagram de vendas
+
+Primeiro: 
+Rede Social > Dono de Loja/distribuidora (cabeça) > Rede social do funcionário de vendas> 
+vendas comissionadas diretamente pelo vendedor.> Retorno em vendas para o dono
+
+
+
+*****A empresa: A empresa Hervé veio ao mundo com a intenção de sempre facilitar o contato de venda e cliente.
+Nosso objetivo é garantir o fluxo de comércio sem gerar grandes estoques mantendo a venda constante.
+
+
+****Rede Social: Toda empresa atual deve se inserir no digital, de todas as fontes para que em qualquer rede
+ela seja vista e lembrada, por isso, uma página de anuncios deve ser criada em cada rede social atual
+que a empresa queira participar e garantir integridade nos conteúdos passados.
+
+****Página Oficinal> Na página oficial da empresa deve-se focar em localizar o ponto de venda, facilitando assim
+saber sobre endereços, horário de funcionamento, ter estoque a mostra de produtos e saber sobre a equipe de vendas
+
+***Funcionário
+
+Como a loja terá local físico ela terá que ter atendentes/vendedores.
+Objetivo: Transformar vendedores em atendentes pessoais e vendedores digitais.
+
+O vendedor terá direito a: Saber o valor original de fábrica e custo para transporte até a loja
+Com isso, o vendedor poderá estipular uma taxa ao produto vendido de acordo com a taxa mínima de venda da empresa+ sua parte.
+
+Pensando no bem estar do funcionario fazer as duas funcões ele poderá de direito a comprar as mercadorias a preço de custo para si ou sua família
+Com esta tatica conseguimos ter uma boa vazão de estoque de produto, sem deixar nada ficar de fora das vendas.
+
+Os produtos em loja deverão ter QR CODES para acessar a página de venda, porém, o funcionário poderá passar sua pagina de vendas pessoal.
+
+O papel do funcionário será pelo menos ofertar 3 produtos em suas redes sociais.

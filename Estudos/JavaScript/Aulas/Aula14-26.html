@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2>Aula 14/26 - Operador Ternário</h2>
+
+        <p>
+            O <strong>operador ternário</strong> em <strong>JavaScript</strong> é uma forma concisa de expressar uma
+            estrutura condicional usando uma
+            única linha de código. Ele permite que você tome uma decisão com base em uma <strong>condição</strong> e
+            retorne um valor ou
+            execute uma expressão diferente, dependendo se a condição é <b>verdadeira ou falsa</b>. O operador ternário
+            é
+            representado pelo símbolo <b>?</b> e é frequentemente chamado de "operador condicional ternário".
+        </p>
+
+        <p>
+            Aqui está a sintaxe básica do operador ternário:
+        </p>
+
+        <pre>
+            condicao ? valor_se_verdadeiro : valor_se_falso;
+        </pre>
+
+        <ul>
+            <li><b>condicao:</b> Uma expressão que será avaliada como verdadeira ou falsa.</li>
+            <li><b>valor_se_verdadeiro:</b> O valor que será retornado se a condição for verdadeira.</li>
+            <li><b>valor_se_falso:</b> O valor que será retornado se a condição for falsa.</li>
+        </ul>
+
+        <p>
+            exemplos:
+        </p>
+
+        <div><img style="height: 350px;" src="./ImagensAulas/Aula14-1.png" alt="Exemplo mais elaborado"></div>
+        <div><img style="height: 300px;" src="./ImagensAulas/Aula14-2.png" alt="Exemplo mais simplificado"></div>
+
+        <p>
+            No primeiro exemplo o valor que será dado para verdadeiro ou falso está disposto antes como variáveis, já no
+            segundo, simplificamos a formula para que o operador ternário já retorne uma variável que servirá como
+            resposta.
+        </p>
+
+        <p>
+            O operador ternário é útil para simplificar condicionais simples que envolvem apenas duas opções. No
+            entanto, é importante usá-lo com moderação, pois seu uso excessivo pode prejudicar a legibilidade do código
+            quando as expressões condicionais ficam muito complexas.
+        </p>
+    </article>
+
+</body>
+
+</html>
+
+<!--
+<script>
+
+    var idade = prompt("Qual sua idade?")
+    var pode = "Pode comprar sua bebida!"
+    var npode = "Retire-se deste site e volte quando completar 18 anos."
+    idade >= 18 ? alert(pode) : alert(npode)
+
+</script> 
+-->
+
+<!--
+<script>
+
+    var idade = prompt("Qual sua idade?")
+    var pode = idade>= 18 ? "Seja bem vindo" : "Volte aos 18 anos."
+    alert(pode)
+
+</script> 
+-->

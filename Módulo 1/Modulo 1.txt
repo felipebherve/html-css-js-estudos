@@ -1,0 +1,41 @@
+	Aula "Como o HTML, CSS e Javascript funcionam juntos?"
+
+html: responsável pelo conteúdo (para abrir sites) ((sempre savlvar como index.html)
+
+CSS: como o conteúdo vai aparecer na tela (para dar o design dos botões e como vai aparecer 
+(caso algo esteja escondido ou não))
+
+Java: interação (é responsável por trabalhar toda a interação que temos com a página. (clicar, mover etc..))
+
+
+
+	Aula "Como eu coloco uma página na internet (overview)"
+
+você vede ter uma hospedagem online e nela será colocado os arquivos de index.html
+O arquivo deve ser nomeado como index.html caso contrário o arquivo não será aberto
+
+Caso você tenha um cliente e ele compre um site, é dever dele pagar o próprio dominio 
+
+
+
+	Aula "Frontend e Backend"
+
+como funciona o processo?
+Meu pc > Servidor > meu pc
+Cliente > servidor > cliente
+Tudo que rola no meu computador após o servidor 
+me mandar de volta é o front end 
+
+tudo que é executado pelo servidor é o backend
+"renderizar é oque o servidor faz"> server side render
+
+O servidor pega os arquivos e atualiza no template (cara do site)
+(página dinamica) página que modifica dependendo do teu acesso
+
+>> servidor de DNS (Domain name server): ele interpreta o IP da hospedagem
+para que ela seja exibida em qualquer computador
+
+
+	Aula "Como baixar o certificado"
+
+entrar no www.programadorbr.com/certificado

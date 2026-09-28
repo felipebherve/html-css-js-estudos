@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <article class="ContainerAula">
+        <h2>Aula 9 - Operadores Lógicos em JavaScript</h2>
+        <p>Os operadores lógicos em JavaScript são utilizados para realizar operações lógicas entre valores booleanos
+            (verdadeiro ou falso). Eles permitem combinar ou inverter valores booleanos para criar expressões lógicas
+            mais complexas.</p>
+
+        <h3>AND Lógico (`&&`)</h3>
+        <p>O operador AND lógico retorna `true` apenas se ambos os operandos forem `true`.</p>
+        <pre>
+        console.log(true && true);   // true
+        console.log(true && false);  // false
+        console.log(false && true);  // false
+        console.log(false && false); // false
+        </pre>
+
+        <h3>OR Lógico (`||`)</h3>
+        <p>O operador OR lógico retorna `true` se pelo menos um dos operandos for `true`.</p>
+        <pre>
+        console.log(true || true);   // true    
+        console.log(true || false);  // true
+        console.log(false || true);  // true
+        console.log(false || false); // false
+        </pre>
+
+        <h3>NOT Lógico (`!`)</h3>
+        <p>O operador NOT lógico inverte o valor booleano de um único operando.</p>
+        <pre>
+        console.log(!true);  // false
+        console.log(!false); // true
+        </pre>
+
+        <p>Os operadores lógicos podem ser usados não apenas com valores booleanos diretos, mas também com expressões
+            que produzem valores booleanos. Além disso, você pode combinar esses operadores para criar expressões
+            lógicas mais complexas.</p>
+
+        <pre>
+        let age = 25;
+        let hasLicense = true;
+
+        let canDrive = age >= 18 && hasLicense; // O motorista deve ter pelo menos 18 anos e ter uma licença válida
+        </pre>
+
+        <p>Operadores lógicos são uma parte essencial da lógica de programação e são amplamente usados em construções
+            condicionais, como declarações `if` e loops. Eles permitem que você tome decisões com base em múltiplas
+            condições e crie comportamentos complexos em seus programas.</p>
+
+        <h2>Codando</h2>
+
+        <div style="display: inline-block; margin: auto;">
+        <img src="./ImagensAulas/Aula9-CódigoPessoa.png" alt="Código de pessoa 25 anos" style="height: 500px"></div>
+
+        
+        <div style="display: inline-block; margin: auto;">
+            <img src="./ImagensAulas/Aula9-CódigoPessoaResultado.png" alt="Resultado de Código de pessoa 25 anos" style="height: 300px"></div>
+
+        
+        <div style="display: inline-block; margin: auto;">
+        <img src="./ImagensAulas/Aula9-Códigopessoa45.png" alt="Código de pessoa 45 anos" style="height: 500px"></div>    
+
+        
+        <div style="display: inline-block; margin: auto;">
+            <img src="./ImagensAulas/Aula9-Códigopessoa45resultado.png" alt="Resultado de Código de pessoa 45 anos" style="height: 300px"></div>
+
+    </article>
+</body>
+
+</html>
+
+<script>
+
+    var idade = 45;
+
+    var maior20 = idade > 20;
+    var menor30 = idade < 30;
+
+    var entre = maior20 && menor30;
+
+    console.log("idade ", idade);
+
+    console.log("Maior que vinte ", maior20);
+
+    console.log("menor que trinta ", menor30);
+
+    console.log("Entre 20 e 30 ", entre)
+
+
+</script>

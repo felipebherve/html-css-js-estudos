@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+O metodo get envia os dados pelo endereço
+    <form method="get" action="/cadastro">
+        <input type="text" name="email">
+        <input type="text" name="nome">
+        <input type="submit">
+    </form>
+    Caso o action seja um site específico deve-se colocar o http://
+
+    O method POST envia para o backend as informações
+    <br><br>
+    O method get é importante quando se faz uma requisição a algum site como exemplo:
+
+    <form method="post" action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <input type="submit">
+    </form>
+</body>
+</html>

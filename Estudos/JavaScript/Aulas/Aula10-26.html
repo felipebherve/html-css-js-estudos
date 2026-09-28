@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10/26</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2>Aula 10 - Strings</h2>
+
+        <h3>O que são Strings no JavaScript:</h3>
+
+        <p>Em JavaScript, uma string é um tipo de dado que representa uma sequência de caracteres. Essa sequência pode
+            incluir letras, números, espaços e caracteres especiais. Strings são frequentemente usadas para armazenar e
+            manipular texto em programas JavaScript.</p>
+
+        <h3>Funcionamento de Strings:</h3>
+
+        <p>Internamente, as strings são representadas como uma sequência de valores numéricos correspondentes aos
+            códigos ASCII ou UTF-16 dos caracteres. Isso significa que cada caractere em uma string é mapeado para um
+            número que representa sua posição na tabela de caracteres. Isso permite que o JavaScript manipule e compare
+            strings.</p>
+
+        <h3>Como surgiram:</h3>
+
+        <p>A ideia de representar texto como sequências de números não é exclusiva do JavaScript; ela é usada em muitas
+            linguagens de programação. A codificação de caracteres como ASCII e UTF-16 existe há muito tempo para
+            permitir que os computadores armazenem e processem texto. O JavaScript adotou essa abordagem para lidar com
+            texto e fornece métodos e funções para manipular strings de maneira eficiente.</p>
+
+        <h3>Uso de Strings no JavaScript:</h3>
+
+        <p>As strings são usadas para lidar com praticamente qualquer forma de entrada de texto ou exibição de saída em
+            um programa JavaScript. Aqui estão alguns exemplos de uso:</p>
+
+        <ul>
+            <li>
+                <h4>Declaração de Strings:</h4>
+                <p>Você pode criar uma string atribuindo texto a uma variável:</p>
+                <img src="./ImagensAulas/Aula10-1exemplo.png" alt="Exemplo de string para nome"
+                    style="height: 250px; text-align: center;">
+            </li>
+            <li>
+                <h4>Concatenação:</h4>
+                <p>É possível combinar (concatenar) strings usando o operador +:</p>
+                <img src="./ImagensAulas/Aula10-2Concatenacao.png" alt="Exemplo de concatenação" style="height: 350px;">
+            </li>
+            <li>
+                <h4>Acessando Caracteres:</h4>
+                <p>Você pode acessar caracteres individuais em uma string usando a notação de colchetes:0</p>
+                <img src="./ImagensAulas/Aula10-3.png" alt="Selecionando elementos dentro da String"
+                    style="height: 400px; display: inline-block;">
+                <img src="./ImagensAulas/Aula10-3.2.png" alt="Resultado"
+                    style="height: 150px; display: block; margin: left;">
+            </li>
+            <li>
+                <h4>Template Strings:</h4>
+                <p>As template strings permitem criar strings interpoladas, onde expressões JavaScript podem ser
+                    incorporadas:</p>
+                <img src="./ImagensAulas/Aula10-4.png" alt="Exemplo de Template"
+                    style="height: 450px; display: inline-block;">
+            </li>
+
+            <li>
+                <h4>Comparação de Strings:</h4>
+                <p>Você pode comparar strings usando operadores de comparação, como ===, <,>, etc. O JavaScript compara
+                        as strings com base em seus códigos de caractere.</p>
+                <img style="height: 300px;" src="./ImagensAulas/Aula10-5.png" alt="Exemplo de Comparação">
+            </li>
+
+            <li>
+                <h4>Métodos de String:</h4>
+                <p>Os métodos de string em JavaScript são um conjunto de funções incorporadas que permitem realizar
+                    diversas manipulações e operações em cadeias de caracteres. Cada método é projetado para executar
+                    uma tarefa específica, como localizar, extrair ou modificar partes de uma string. Quando aplicados a
+                    uma string, esses métodos utilizam algoritmos internos para examinar sua estrutura, possibilitando
+                    identificar padrões, posições ou caracteres específicos. Através do uso de argumentos ou parâmetros,
+                    esses métodos aceitam informações adicionais, como substrings a serem encontradas, caracteres para
+                    substituição, entre outros. Ao aplicar um método a uma string, o método processa a string de acordo
+                    com a tarefa designada e retorna o resultado desejado. Isso oferece aos desenvolvedores uma maneira
+                    eficaz e programática de manipular, transformar e explorar informações contidas em strings.</p>
+
+                <strong> charAt(index):</strong>
+                <p>Retorna o caractere na posição especificada.</p>
+
+                <strong>charCodeAt(index):</strong>
+                <p>Retorna o valor Unicode do caractere na posição especificada. </p>
+
+                <strong> concat(str1, str2, ...):</strong>
+                <p> Combina duas ou mais strings. </p>
+
+                <strong>includes(substring, fromIndex):</strong>
+                <p> Verifica se a string contém a substring fornecida.</p>
+
+                <strong> endsWith(suffix, length):</strong>
+                <p> Verifica se a string termina com a substring fornecida.</p>
+
+                <strong>indexOf(substring, fromIndex) e lastIndexOf(substring, fromIndex):</strong>
+                <p> Retorna o índice da primeira
+                    ocorrência (ou última ocorrência) de uma substring, começando a busca a partir de fromIndex.</p>
+
+                <strong>match(regex):</strong>
+                <p> Retorna um array de correspondências da string com uma expressão regular.</p>
+
+                <strong>replace(searchValue, newValue):</strong>
+                <p> Substitui o valor especificado por outro valor.</p>
+
+                <strong>search(regex):</strong>
+                <p> Executa uma pesquisa por uma expressão regular e retorna o índice da primeira
+                    correspondência.</p>
+
+                <strong>slice(start, end):</strong>
+                <p> Retorna uma parte da string, começando do índice start até end - 1.</p>
+
+                <strong>split(separator, limit):</strong>
+                <p> Divide a string em um array de substrings com base no separador especificado.</p>
+
+                <strong>startsWith(prefix, position):</strong>
+                <p> Verifica se a string começa com a substring fornecida.</p>
+
+                <strong>substring(start, end):</strong>
+                <p> Retorna uma parte da string, começando do índice start até end - 1.</p>
+
+                <strong>toLocaleLowerCase() e toLocaleUpperCase():</strong>
+                <p> Converte a string em minúsculas ou maiúsculas, respeitando as
+                    regras de localização.</p>
+
+                <strong>toLowerCase() e toUpperCase():</strong>
+                <p> Converte a string em minúsculas ou maiúsculas.</p>
+
+                <strong>trim(), trimStart() e trimEnd():</strong>
+                <p> Remove espaços em branco no início, no final ou em ambos os lados da
+                    string.</p>
+
+                <strong>valueOf():</strong>
+                <p> Retorna o valor primitivo de uma string.</p>
+
+            </li>
+
+        </ul>
+    </article>
+
+</body>
+
+</html>
+
+<script>
+
+    let palavra1 = "maçã";
+    let palavra2 = "banana";
+    let comparacao = palavra1 < palavra2;
+// Resultado: true (lexicograficamente menor)
+
+</script>

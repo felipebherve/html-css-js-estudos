@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Bônus 13.2</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2><strong>Aula 13.2 - Bônus, aprenda mais sobre && e ||</strong></h2>
+
+        <p>
+            Os operadores lógicos <b>&& (E)</b> e <b>|| (OU)</b> são utilizados em JavaScript (e em muitas outras
+            linguagens de
+            programação) para combinar ou avaliar expressões booleanas (verdadeiras ou falsas) de maneira mais complexa.
+            Eles são frequentemente usados em condicionais, loops e em situações onde é necessário tomar decisões
+            baseadas em múltiplas condições.
+        </p>
+
+        <p>
+            Vamos explorar cada um desses operadores:
+        </p>
+
+        <h3>Operador <b>&& (E):</b></h3>
+
+        <p>
+            O operador <b>&&</b> é usado para verificar se duas ou mais expressões são verdadeiras. Se todas as
+            expressões
+            forem verdadeiras, o resultado será verdadeiro; caso contrário, o resultado será falso.
+        </p>
+
+        <p>
+            Exemplo:
+        </p>
+
+        <div><img style="height: 300px;" src="./ImagensAulas/Aula13.2-1.png" alt="Exemplo de operador lógico &&"></div>
+
+        <p>
+            Nesse exemplo, o código verifica se a idade é maior ou igual a 18 e se a pessoa tem uma carteira de
+            motorista. Ambas as condições devem ser verdadeiras para que a mensagem "Pode dirigir." seja exibida.
+        </p>
+
+        <h3>Operador <b>|| (OU):</b></h3>
+
+        <p>
+            O operador <b>||</b> é usado para verificar se pelo menos uma das expressões é verdadeira. Se pelo menos uma
+            expressão for verdadeira, o resultado será verdadeiro; somente se todas as expressões forem falsas, o
+            resultado será falso.
+        </p>
+
+        <p>
+            Exemplo:
+        </p>
+
+        <p>
+            Nesse exemplo, o código verifica se a pessoa tem experiência ou se tem um certificado. Se pelo menos uma das
+            condições for verdadeira, a mensagem "Pode se candidatar ao emprego." será exibida.
+        </p>
+
+        <p>
+            Esses operadores lógicos podem ser usados em expressões mais complexas e aninhadas para avaliar várias
+            condições de uma só vez. Eles desempenham um papel fundamental na construção de lógica condicional mais
+            elaborada em programação.
+        </p>
+
+    </article>
+
+</body>
+
+</html>
+
+
+<!--
+     <script>
+
+    var idade = 25;
+    var temCarteiraDeMotorista = true;
+
+    if (idade >= 18 && temCarteiraDeMotorista) {
+        console.log("Pode dirigir.");
+    } else {
+        console.log("Não pode dirigir.");
+    }
+
+</script> 
+-->
+
+<!--
+     <script>
+
+    var temExperiencia = true;
+    var temCertificado = false;
+
+    if (temExperiencia || temCertificado) {
+        console.log("Pode se candidatar ao emprego.");
+    } else {
+        console.log("Não atende aos requisitos.");
+    }
+
+</script> 
+-->

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2>Aula 16/26 - Repetição - FOR e WHILE</h2>
+
+        <p>
+            As estruturas de repetição <strong>for</strong> e <strong>while</strong> são usadas em <b>JavaScript</b> (e
+            em muitas outras linguagens de
+            programação) para executar um bloco de código repetidamente, permitindo automatizar tarefas que requerem
+            repetição. Elas são especialmente úteis para percorrer listas de elementos, processar dados ou executar
+            ações até que uma determinada condição seja atendida.
+        </p>
+
+        <p>
+            Vamos ver como cada uma delas funciona, juntamente com exemplos:
+        </p>
+
+        <h3>Repetição com <strong>for</strong></h3>
+
+        <p>
+            A estrutura <strong>for</strong> é usada quando você sabe a quantidade exata de iterações que deseja
+            realizar. Ela é composta
+            por três partes: a <b>inicialização</b>, a <b>condição de continuação</b> e a <b>expressão final</b>. O
+            bloco de código é
+            executado repetidamente enquanto a condição for verdadeira.
+        </p>
+
+        <p>Sintaxe:</p>
+
+        <pre>
+            for (<b>inicialização</b>; <b>condição</b>; <b>expressão_final</b>) {
+                // Código a ser repetido
+              }
+        </pre>
+
+        <p>
+            Exemplo:
+        </p>
+
+        <div><img style="height: 300px;" src="./ImagensAulas/Aula16-1.png" alt="Exemplo do uso de for"></div>
+
+        <p>
+            Nesse exemplo, o código imprimirá os números de 0 a 4.
+        </p>
+
+        <h3>Repetição com <strong>while</strong>:</h3>
+
+        <p>
+            A estrutura <b>while</b> é usada quando você não sabe quantas iterações serão necessárias, mas quer repetir
+            um bloco
+            de código enquanto uma determinada condição for verdadeira. A condição é verificada antes de cada iteração,
+            e a execução é interrompida quando a condição se torna falsa.
+        </p>
+
+        <p>
+            Sintaxe:
+
+        </p>
+
+        <pre>
+            <b>while</b> (condição) {
+                // Código a ser repetido
+              }
+        </pre>
+
+        <p>
+            Exemplo:
+        </p>
+
+        <div><img style="height: 300px;" src="./ImagensAulas/Aula16-2.png" alt="Exemplo do uso de while"></div>
+
+        <p>
+            Nesse exemplo, o código imprimirá os números de 0 a 4, assim como no exemplo do for.
+        </p>
+
+        <p>
+            Ambas as estruturas de repetição são poderosas e podem ser usadas para realizar diversas tarefas, como
+            percorrer arrays, processar dados em loops, interagir com o usuário até que uma ação seja realizada e muito
+            mais. É importante tomar cuidado ao usar essas estruturas para evitar loops infinitos, onde a condição nunca
+            se torna falsa, o que pode travar a execução do programa. Certifique-se de que a condição de parada seja
+            atingida em algum momento.
+        </p>
+
+        <p>Duas formulas iguais escritas de forma diferente.</p>
+
+        <div><img style="height: 300px;" src="./ImagensAulas/Aula16-3.1.png" alt="Exemplo com nomes no lugar das var"></div>
+        <div><img src="./ImagensAulas/Aula16-3.2.png" alt="Exemplo com var em alfanuméricos"></div>
+
+        <p>
+            Exemplo de while com especifícação no bug.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula16-4.png" alt="Exemplo de while"></div>
+
+        <p>
+            Último exemplo. Usando geração automática de números o <b>Math.random()</b>
+        </p>
+
+        <div><img src="./ImagensAulas/Aula16-5.png" alt="Exemplo de um criador aleatório de números."></div>
+
+        
+    </article>
+
+
+</body>
+
+</html>
+
+<!-- 
+    <script>
+
+    for (var i = 0; i < 5; i++) {
+        console.log("Número: " + i);
+    }
+
+</script> 
+-->
+
+<!-- <script>
+
+    var contador = 0;
+
+    while (contador < 5) {
+        console.log("Contador: " + contador);
+        contador++;
+    }
+
+</script> -->
+
+<!-- 
+<script>
+
+    var numero = 5;
+
+    for (var vez = 0; vez <= numero; vez++) {
+        console.log("Executando o for, pela " + vez + " Vez")
+
+    }
+
+    console.log("Acabou.")
+
+</script> 
+-->
+
+
+<!-- <script>
+
+    var k = 5;
+
+    for (var i = 0; i <= k; i++) {
+        console.log("Executando o for, pela " + i + " Vez")
+
+    }
+
+    console.log("Acabou.")
+
+</script> -->
+
+
+
+
+<!-- 
+    <script>
+
+    var numero = 5
+
+    // Enquanto o que estiver dentro de while for verdadeiro,
+    // ele irá se repetir infinitamente.
+
+    while (numero <= 10) {
+
+        console.log("Número " + numero);
+        numero++;
+
+    }
+
+    console.log("Acabou")
+
+</script>
+-->
+
+ <!-- Looping infinito: caso não existisse o numero++ nosso número não mudaria
+e se trataria de um looping onde crasharia o computador/navegador -->
+
+
+
+<script>
+
+    var numero = Math.random() * 100;
+
+    while (numero < 90) {
+
+        console.log(numero);
+        numero = Math.random() * 100;
+
+    }
+
+    console.log(numero)
+    console.log("Acabou")
+
+</script>

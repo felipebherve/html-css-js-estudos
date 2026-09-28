@@ -1,0 +1,330 @@
+h4{color:tomato}
+
+#aula5{color: orange;}
+
+.aula5{color: pink;}
+
+.corrgb{color:rgb(50,50,50)}
+
+.corrgba{color: rgba(50, 100, 200, 0.5);}
+
+.corhexadecimal{color: #34d991}
+
+.backgroundexemplo{background-color: #34d991;}
+
+.fundorepetido{background-image: url(./Fundos/relevo.jpg);}
+
+.Gatinhos{background-image: url(./Fundos/gatinhos.webp);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+.bombabackground{background: url(./Fundos/relevo.jpg) center/cover repeat fixed}
+
+#cm{background-color: red;
+    width: 1cm;
+    height: 1cm;
+}
+#mm{background-color: blueviolet;
+    width: 10mm;
+    height: 10mm;
+}
+#in{background-color:darkorange;
+width: 1in;
+height: 1in;
+}
+
+#px{background-color:#34d991;
+    width: 50px;
+    height: 50px;
+}
+
+#pt{background-color:maroon;
+    width: 50pt;
+    height: 50pt;
+}
+
+#pc{background-color:maroon;
+    width: 1pc;
+    height: 1pc;
+}
+
+#table1{background-image: url(./Fundos/fundoriscado.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.T1{
+    background-color: green;
+    font-size: 20px;
+
+}
+
+.T2{
+    background-color: purple;
+    font-size: 2em ;
+}
+
+
+.Coment{
+    color: darkblue;
+    font-weight: bold;
+    vertical-align: super;
+    font-style: italic;
+    font-size: 15px;
+    
+}
+
+.T3{
+       font-size: 20px;
+    width: 50px;
+    height: 50px;
+
+    background-color: green;
+}
+
+.T4{   
+        font-size: 2em ;
+    width: 2em;
+    height: 2em;
+    background-color: purple;
+}
+
+.T5{
+    font-size: 20px;
+ width: 50px;
+ height: 50px;
+
+ background-color: green;
+}
+
+.T6{   
+     font-size: 1rem ;
+ width: 1rem;
+ height: 1rem;
+ background-color: purple;
+}
+
+.T7{
+    width: 50vw;
+    background-color: green;
+}
+
+.T8{
+    width: 50px;
+    background-color: purple;
+}
+
+.T9{
+    width: 20vh;
+    background-color: green;
+}
+
+.T10{
+    width: 50px;
+    background-color: purple;
+}
+
+.T11{
+    width: 20vmin;
+    background-color: green;
+}
+
+.T12{
+    width: 50px;
+    background-color: purple;
+}
+
+.T13{
+    width: 20vmax;
+    background-color: green;
+}
+
+.T14{
+    width: 50px;
+    background-color: purple;
+}
+
+.GatoGordo{ 
+    background-image: url(./Images/gatogordo.jpg);
+    width: 80vw;
+    height: 80vh;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.GatoMagro{
+    background-image: url(./Images/gatomagro.jpg);
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment:scroll;
+    background-position: center;
+}
+
+#Aula12B1{
+    background-color: darkorange;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+
+    margin: 0px;
+}
+
+#Aula12B2{
+    background-color: aqua;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+
+    margin-left:  200px;
+}
+
+#Aula12B3{
+    background-color: darkorange;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+
+    padding: 10px;
+}
+
+#Aula12B4{
+    background-color: aqua;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+}
+
+.Borda{
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+
+.Gatinho{background-image: url(./Images/gatogordo.jpg);
+width: 100px;
+height: 100px;
+background-repeat: no-repeat; 
+background-size:cover;
+background-attachment: scroll;
+background-position: center;
+}
+.BordaRedonda{
+    border-radius: 50%;
+    border-style: groove;
+    border-color: gold green maroon grey;
+    border-width: 5px;
+}
+
+.aula14container{
+    background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px;
+}
+.aula14content{
+    background-color: #ddd;
+    border: 5px solid green;
+    margin: 5px;
+}
+
+.Aula16{
+    color: red;
+    text-decoration: none;
+    font-style: inherit;
+    background-color: black;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: red ;
+    border-radius: 20px;
+    
+}
+
+.Aula16:visited{
+    color: #34d991;
+    text-decoration:solid;
+    font-style: normal;
+    background-color:lightseagreen;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: #34d991;
+    border-radius: 10px;
+}
+
+.Aula16:hover{
+    background-image: url(./Fundos/gatinhos.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: #34d991;
+    border-radius: 5px;
+    
+}
+/* list style type none para sumir as marcações */
+.Aula17UL{
+    list-style-type:circle;
+    list-style-position: inside;
+    margin: 0%;
+    padding: 10px;
+    background-color: #f3e;
+
+  
+}
+
+.Aula17OL{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    list-style-position: inside;
+    margin: 0%;
+    padding: 10px;
+    background-color: #59e;
+    
+}
+
+.Aula17ULLI{
+    border: 1px;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.Aula17OLLI{
+    border: 1px;
+    background-color: red;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}

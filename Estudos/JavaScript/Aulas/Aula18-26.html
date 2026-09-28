@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 18,19/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2>Aula 18,19/26 - <strong>Funções</strong></h2>
+
+        <p>
+            As <strong>funções</strong> em <b>JavaScript</b> são blocos de código nomeados que executam uma tarefa
+            específica quando chamados.
+            Elas são fundamentais na programação, pois permitem que você reutilize o código e o organize em unidades
+            lógicas. Funções podem aceitar argumentos (parâmetros) e retornar valores, ou podem simplesmente executar
+            ações sem retornar nada.
+        </p>
+
+        <p>
+            Aqui estão os conceitos básicos sobre <strong>funções</strong> em <b>JavaScript</b>:
+        </p>
+
+        <h3>Declaração de Função:</h3>
+
+        <p>
+            Você pode declarar uma <strong>função</strong> usando a palavra-chave <strong>function</strong>. Uma função
+            pode ou não receber parâmetros e
+            pode ou não retornar um valor.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula18-1.png" alt="Exemplo básico de função"></div>
+
+        <h3>Chamada de Função:</h3>
+
+        <p>
+            Para usar uma função, você a chama pelo nome, seguido de parênteses.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula18-2.png" alt="Exemplo de criação de função"></div>
+
+        <h3>Parâmetros e Argumentos:</h3>
+
+        <p>
+            Parâmetros são valores que uma função espera receber quando é chamada. Os argumentos são os valores reais
+            passados para a função quando ela é chamada.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula18-3.png" alt="Exemplo de uma função de soma. "></div>
+
+        <h3>Retorno de Valores:</h3>
+
+        <p>
+            As funções podem retornar valores usando a palavra-chave <strong>return</strong>. Se uma função não tiver um
+            <b>return</b>, ela
+            retornará <i><b>undefined</b></i> por padrão.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula18-4.png" alt="Exemplo de retorno undefined"></div>
+
+        <h3>Funções Anônimas:</h3>
+
+        <p>
+            Você pode criar funções sem nome, chamadas de funções anônimas, que são frequentemente usadas como
+            <b>argumentos</b> para outras funções.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula18-5.png" alt="Exemplo de função sem nome"></div>
+
+        <h3>Arrow Functions (Funções de Seta):</h3>
+
+        <p>
+            As <b>arrow functions </b>são uma forma mais curta de escrever funções anônimas.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula18-6.png" alt="Exemplo de arrow"></div>
+
+        <p>
+            Aqui estão alguns exemplos práticos de funções em JavaScript:
+        </p>
+
+        <h4>Função que calcula a média de números:</h4>
+
+        <div><img src="./ImagensAulas/Aula18-7.png" alt="Exemplo de calculadora de média"></div>
+
+        <h4>Função que verifica se um número é par:</h4>
+
+        <div><img src="./ImagensAulas/Aula18-8.png" alt="Exemplo de identificador de numeros par"></div>
+
+        <h4>Função que concatena duas strings:</h4>
+
+        <div><img src="./ImagensAulas/Aula18-9.png" alt="Exemplo de função que concatena strings"></div>
+
+        <p>
+            Funções são um dos pilares da programação JavaScript e são usadas para dividir um programa em partes menores
+            e mais gerenciáveis, tornando o código mais organizado e reutilizável. Elas desempenham um papel essencial
+            na criação de aplicativos e sites interativos.
+        </p>
+
+        <p>Último exemplo, construindo uma idéia e polindo-a com funções.</p>
+
+        <div><img src="./ImagensAulas/Aula18-10.png" alt="Exemplo de construção de uma calculadora de média"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </article>
+
+</body>
+
+</html>
+
+<script>
+
+    function saudacao(nome) {
+        return "Olá, " + nome + "!";
+    }
+
+</script>
+
+<script>
+
+    var mensagem = saudacao("Alice");
+    // mensagem contém "Olá, Alice!"
+
+</script>
+
+<script>
+
+    function somar(a, b) {
+        return a + b;
+    }
+
+    var resultado = somar(3, 5); // resultado contém 8
+
+</script>
+
+<script>
+
+    function adicionar(x, y) {
+        var soma = x + y;
+        return soma;
+    }
+
+</script>
+
+<script>
+
+    var quadrado = function (x) {
+        return x * x;
+    };
+
+</script>
+
+<script>
+
+    var dobrar = (x) => x * 2;
+
+</script>
+
+<script>
+
+    function calcularMedia(numeros) {
+        var soma = 0;
+        for (var i = 0; i < numeros.length; i++) {
+            soma += numeros[i];
+        }
+        return soma / numeros.length;
+    }
+
+    var numeros = [5, 10, 15, 20];
+    var media = calcularMedia(numeros); // media contém 12.5
+
+</script>
+
+<script>
+
+    function ehPar(numero) {
+        return numero % 2 === 0;
+    }
+
+    var resultado = ehPar(10);
+    // resultado é true
+
+</script>
+
+<script>
+
+    function concatenarStrings(str1, str2) {
+        return str1 + " " + str2;
+    }
+
+    var saudacao = concatenarStrings("Olá", "Mundo!");
+     // saudacao contém "Olá Mundo!"
+
+</script>
+
+
+<!-- SCRIPT DA AULA -->
+
+
+<script>
+
+    {
+        var nota1 = 10;
+        var nota2 = 8;
+        var media = (nota1 + nota2) / 2;
+        console.log(media)
+    }
+
+
+</script>
+
+<script>
+
+    function media() {
+        var nota1 = 10;
+        var nota2 = 8
+        var media = (nota1 + nota2) / 2;
+        sonsole.log(media);
+    }
+
+    media()
+
+</script>
+
+<script>
+
+    function media(n1, n2) {
+        var nota1 = n1;
+        var nota2 = n2;
+        var media = (nota1 + nota2) / 2;
+        // sonsole.log(media);
+
+        return media;
+    }
+
+    var resultado1 = media(6, 7)
+    var resultado2 = media(8, 7);
+
+    console.log(resultado1 + "e" + resultado2)
+
+
+</script>

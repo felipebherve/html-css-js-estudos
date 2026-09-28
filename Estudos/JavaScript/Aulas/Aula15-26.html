@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 15/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2>Aula 15/26 - Condicionais - Switch</h2>
+
+        <p>
+            <strong>Switch</strong> é uma construção de controle de fluxo em muitas linguagens de programação, incluindo
+            <strong>JavaScript</strong>. Ela é
+            usada quando você tem uma variável ou expressão que pode ter diferentes valores e você deseja executar
+            diferentes blocos de código com base nesses valores. A instrução switch oferece uma alternativa mais
+            organizada e eficiente para uma série de condicionais <strong>if</strong> e <strong>else if</strong>.
+        </p>
+
+        <p>
+            Aqui está a estrutura básica de uma instrução switch em JavaScript:
+        </p>
+
+        <pre>
+            switch (expressao) {
+                case valor1:
+                  // Código a ser executado se expressao for igual a valor1
+                  break;
+                case valor2:
+                  // Código a ser executado se expressao for igual a valor2
+                  break;
+                // ... mais casos ...
+                default:
+                  // Código a ser executado se nenhum dos casos corresponder
+              }
+        </pre>
+
+        <ul>
+            <li><b>expressao:</b> Uma expressão cujo valor será comparado com os diferentes casos.</li>
+            <li><b>valor1, valor2, etc.:</b> Os valores possíveis que a expressao pode ter.</li>
+            <li><b>break:</b> A palavra-chave <b>break</b> é usada para <b>interromper</b> a execução do
+                <strong>switch</strong> após um caso correspondente ser encontrado. Sem o <b>break</b>, o fluxo de
+                execução continuará nos casos subsequentes até encontrar um <b>break</b> ou até o final do
+                <strong>switch</strong>.
+            </li>
+            <li><b>default:</b> Este é um caso opcional que é executado quando nenhum dos valores corresponde à
+                expressão.</li>
+        </ul>
+
+        <p>Aqui está um exemplo de como usar a instrução switch em JavaScript:</p>
+
+        <div><img style="height: 500px;" src="./ImagensAulas/Aula15-1.png" alt="Exemplo de uso do switch"></div>
+
+        <p>
+            Neste exemplo, o código avalia a variável <b>diaDaSemana</b> e, com base em seu valor, atribui uma mensagem
+            correspondente. Como <b>diaDaSemana</b> é igual a <b>3</b>, a mensagem <b>"Hoje é terça-feira"</b> será
+            exibida.
+        </p>
+
+        <p>
+            A instrução <strong>switch</strong> é especialmente útil quando você tem uma série de possíveis valores que
+            deseja comparar e
+            para os quais deseja executar diferentes ações. Isso pode tornar seu código mais limpo e legível em
+            comparação com uma série de condicionais <b>if</b> e <b>else if</b>.
+        </p>
+
+
+    </article>
+
+</body>
+
+</html>
+
+<!-- 
+<script>
+
+    var diaDaSemana = 3;
+    var mensagem;
+
+    switch (diaDaSemana) {
+        case 1:
+            mensagem = "Hoje é domingo";
+            break;
+        case 2:
+            mensagem = "Hoje é segunda-feira";
+            break;
+        case 3:
+            mensagem = "Hoje é terça-feira";
+            break;
+        default:
+            mensagem = "Não sei que dia é hoje";
+    }
+
+    console.log(mensagem);
+
+</script> 
+-->
+
+
+<!-- 
+<script>
+
+    var nota1 = 5.0;
+    var nota2 = 6.0;
+
+    var media = (nota1 + nota2) / 2;
+
+    if(media > 7){
+        console.log("Você passou com média " + media)
+    
+    }
+
+    else{
+        console.log("Sua nota " + media + " não foi o suficiente.")
+    }
+
+</script> 
+-->
+
+
+<!-- 
+<script>
+
+    var nota1 = 8.0;
+    var nota2 = 7.0;
+
+    var media = (nota1 + nota2) / 2;
+
+    var conceito = ""
+
+    if (media >= 8){
+
+        conceito = "Ótimo";
+    }
+    else if (media >- 6){
+
+        conceito = "Bom";
+    }
+    else {
+
+        conceito = "Regular";
+    }
+
+    console.log(media);
+    console.log(conceito)
+
+        switch(conceito){
+
+        case "Ótimo":
+            console.log("Parabéns, você é um ótimo aluno!")
+            break;
+
+        case "Bom":
+            console.log("Você está quase perfeito!")
+            break;
+
+        case "Regular":
+            console.log("Estude mais um pouco!")
+            break;
+
+        default:
+            console.log("Houve algum erro.")
+
+
+    }
+
+</script> 
+-->

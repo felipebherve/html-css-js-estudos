@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Primeiros Passos</title>
+
+    <!-- irei inserir a configuração de CSS  -->
+    <style>
+        h3 {
+            color: darkmagenta
+        }
+    </style>
+
+    <!-- Também irei inserir um link para o style.css -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Módulo 3 - CSS</h1><br>
+    <i><sub style="color:crimson;">Comentários no CSS deve-se usar /* texto de comentário */</sub></i>
+
+    <hr>
+
+    <h2>Aula 1 - Introdução - CSS Básico</h2>
+
+    <P>
+        CSS Inline - Criar o código css num atributo HTML <br>
+        CSS Interno - escrito dentro do head <br>
+        CSS Externo - Escrito em uma nova aba de nome style.css
+    </P>
+
+    <hr>
+    <!-- A partir daqui serão feitos os testes do modulo 1 de css -->
+
+
+    <h2>Aula 2 - CSS INLINER</h2>
+    <p style="color:red;">
+        Este texto deve aparecer em vermelho por conta do comando style color dentro da tag P
+    </p>
+    <hr>
+
+    <!-- Modificado o h3 para auxiliar na aula 3 -->
+    <h2>Aula 3 - CSS Interno</h2>
+
+    <p>
+        Foi usado no HEAD o comando Color fixando apenas o h3 como cor magenta escuro como segue o exemplo <br>
+
+    <h3>XXXXXXXX</h3>
+    </p>
+
+    <hr>
+
+    <h2>Aula - 4 CSS Externo</h2>
+
+    <p>
+        Foi criado um novo arquivo dentro da pasta do modulo onde fica o index.htl chamada style.css.
+        <br> este arquivo permite determinar comandos para o css de fora do arquivo html para não exigir um código
+        grande demais.
+        <br>no caso foi alterada a cor da tah h4 para tomate
+        <br>Ex:
+    <h4>XXXXXXXX</h4>
+    </p>
+
+    <hr>
+
+    <h2>Aula 5 - Classes e Ids</h2>
+
+    <p>
+        Para conseguirmos separar uma mesma tax pré fixada com uma cor no css externo devemos adicionar uma identidade
+        <br>
+        para a nova tag, como estamos na aula 5 criei uma identificação para id aula5 na aba style.css para alterar a
+        cor da <br>
+        tag para laranja escuro. <br>
+        <br>
+        Para fazer a seleção desta tag no style.css deve-se adicionar o # antes da identidade criada. <br>
+        Ex:
+    <h3 id="aula5">XXXXXXXX</h3>
+    </p>
+
+    <p>
+        O comando class funciona da mesma forma que o ID porém na hora de passar na aba style.css deve-se usar o . em
+        vez da <br>
+        # para buscar. Para diferenciar usarei a cor roza porém usando o mesmo nome do id "aula5". <br>
+        Ex:
+    <h3 class="aula5">XXXXXXXX</h3>
+    <br><br><br>
+
+    <strong>Mas qual a diferença entre o ID e o Class?</strong> <br>
+    O ID indica apenas uma tag podendo ser usado apenas uma vez, já o class pode ser usado em várias tags. <br>
+    <br><br><br>
+
+    O ID tem esta propriedade para que possamos usa-lo de buscador como um link de rolagem automática. <br>
+    Ex.: Gostaria de ver um gatinho tristinho no final desta página? <br>
+    <a href="#gatotriste">Clique aqui para rolar até o gato tristinho</a>
+    </p>
+
+    <br>
+    <hr>
+    <h2>Aula 6 - Cores</h2>
+
+    <p>
+        Caso vá ao site <a href="https://www.w3schools.com/colors/colors_picker.asp">w3schools</a> conseguimos verificar
+        <br>
+        toda paleta de cores existente em código. Porém, caso deseje usar uma nova tonalidade criada por si próprio
+        podemos <br>
+        usar o comando color:rgb(0.0.0) podendo escolher do 1 ao 255 de cada tom podendo criar as cores de acordo com
+        sua <br>
+        própria paleta de cores. <br>
+
+        Ex.: usando rgb (50.50.50)
+        <b class="corrgb">XXXXXXXX</b> <br> <br>
+
+        caso adicione o rgba nós conseguimos mudar a transparência adicionando o ultimo número 0 totalmente transparente
+        <br>
+        e 1 sendo opaco. <br>
+
+        Ex.: usando rgba (50.100.200.0,5) <b class="corrgba">XXXXXXXX</b> <br>
+        <br>
+        Outra forma de se usar as cores também é por número hexadecimal, para facilitar o uso podemos buscar a extenção
+        <br>
+        <a
+            href="https://www.google.com/search?rlz=1C1ISCS_pt-PTBR994BR994&sxsrf=APq-WBv4M0mRqHyMGLvGsFf0E0LgFi8WyA:1646778490190&q=color+picker&si=ANhW_Nq9CULCgfbkOw6kvWfPvXut0BPdGHmZQn22eGERa4k2kqGzaPolOqqgaQuzMkCOiRqsTNv81pN1ROInBSZ7E6h7Myn64LhKI3LP-Dypu2iJoyDTPh8j6r1rhgqbXOeMA6cSZSpB-IUipUOB9tP-E7TF8YcaUvJy5FAqSHbRlB89vPN2gVI%3D&sa=X&ved=2ahUKEwjpx7j3x7f2AhWFrpUCHR2FDO4Q6RN6BAghEAE&biw=1366&bih=657&dpr=1">Colorpicker</a>
+        ou buscar no google. <br>
+        Ex.: usando a cor #34d991 <b class="corhexadecimal">XXXXXXXX</b> <br>
+    </p>
+    <br>
+    <hr>
+    <h2 class="Gatinhos">Aula 7 - Background</h2>
+    <div class="Gatinhos">
+        <p>
+            Para modificar a cor do Background usamos o comando <b> background-color:""</b> este comando permite
+            modificar <br>
+            o fundo de um documento. <br>
+            Ex.: usando a cor #34d991 <b class="backgroundexemplo">XXXXXXXX</b> <br> <br>
+
+            Podemos também adicionar uma imagem como background usando o comando background-image: url(). da imagem"
+            <br>
+            Ex.: Usando uma imagem que pode ser repetida diversas vezes <b class="fundorepetido">XXXXXXXX</b><br><br>
+
+            <i><b>CASO O FUNDO FOSSE INSERIDO NA PÁGINA TODA SERIA APENAS ORDENAR NO COMANDO CSS PARA O BODY</b></i>
+            <br><br>
+
+            Caso deseje que a imagem não se repita no fundo deve-se adicionar o comando <b>background-repeat:no-repeat
+                ;</b> <br>
+            Caso deseje que a imagem não se extenda para o eixo X ou Y usa-se o comando <b>background-repeat: repeat-(x
+                ou y);</b> <br>
+            Caso deseje que a imagem cubra toda a área se expandindo usa-se o comando <b>background-size: cover;</b>
+            <br>
+            Caso deseje que a imagem não ande junto com o scroll da página deve-se usar o comando
+            <b>background-attachment: fixed;</b> <br>
+            Caso deseje que a imagem fique centralizada deve-se usar o comando <b>background-position: center;</b> <br>
+            <br>
+    </div>
+
+    Estes comandos todos podem ser feitos em uma única linha desde que respeite a seguinte ordem: <br>
+    Cor posição/ tamanho se repete origem clipe attachment <br>
+    <br>
+    Ex.: <b> Background: url(local do arquivo) center/no-repeat fixed ;</b>
+    <br><br>
+
+
+
+    <b class="bombabackground">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br></b>
+    <br>
+
+    </p>
+    <br>
+    <hr>
+
+    <h2>Aula 8 - Div</h2>
+
+    <p>
+        A tag div serve para separar em blocos e facilitar no uso do CSS, exemplo na aula anterior.
+    </p>
+
+    <br><br>
+    <hr>
+
+    <h2>Aula 9 - Ferramentas do Google Chrome</h2>
+
+    <p>
+        Clicando com o botão direito em qualquer página do chrome conseguimos inspecionar os códigos e ver como eles
+        foram formados.
+    </p>
+
+
+    <br><br>
+    <hr>
+
+
+    <h2>Aula 10 - Unidades de medida (fixas)</h2>
+
+    <p>
+
+        No style esxistem algumas unidades de medida e que para definilas <br>
+        usamos <b> Xtamanho ;</b> e <b>height: Xtamanho ;</b>.<br>
+        Essas unidades são: <br>
+        <br>
+    <div id="table1">
+        <table>
+            <tr>
+                <th> 1 Centrimetro</th>
+                <th>10 milímetros</th>
+                <th>1 Inches(polegadas) <br> <sub> equivale a 2,4cm</sub></th>
+                <th>50 pixels</th>
+                <th>50 pontos</th>
+                <th>1 picas</th>
+            </tr>
+            <tr>
+                <td>
+                    <div id="cm"></div> <br>
+                </td>
+                <td>
+                    <div id="mm"></div> <br>
+                </td>
+                <td>
+                    <div id="in"></div> <br>
+                </td>
+                <td>
+                    <div id="px"></div> <br>
+                </td>
+                <td>
+                    <div id="pt"></div> <br>
+                </td>
+                <td>
+                    <div id="pc"></div> <br>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </p>
+    <br><br>
+    <hr>
+
+
+
+    <h2>Aula 11 - Unidades de Medida (referência) </h2>
+
+    <p> As unidades de medida de referência são as mais usadas no dia a dia por conta da sua versatilidade <br>
+        diferente das unidades de medida estáticas. <br>
+        <br>
+        Seu uso é importante para que a página toda fique com uma estética padronizada sem alteração quando <br>
+        é necessário diminuir o tamanho da mesma sem deformar alguma imagem ou texto. <br>
+        <br><br>
+        Quando não colocamos um tamanho de texto ele vem como base 16 pixels, porém, com o comando no CSS
+        <b>font-size:</b> <br>
+        conseguimos alterar ele para o tamanho que quisermos. <br>
+        Neste exemplo usamos o tamanho do texto principal com 20 e o secundário com 2em.
+    <div class="T1"> <b> TESTE PRINCIPAL </b>
+        <div class="T2"> TEXTO SECUNDÁRIO </div>
+    </div>
+    <div class="Coment"> EM: unidade de medida referente a "principal" no caso o TESTE PRINCIPAL. </div> <br>
+    <br>
+    Caso usarmos a unidade width no background usando a mesma formatação (EM) de exemplo, o background <br>
+    também crescerá de acordo com o width do primeiro bloco.
+
+    <div class="T3"> <b> TESTE PRINCIPAL </b>
+        <div class="T4"> TEXTO SECUNDÁRIO </div>
+    </div> <br> <br><br><br><br>
+
+    <div class="Coment">Foi usado 50px no primeiro width e height e 2em para acompanhar.</div>
+    <br>
+    Usando agora um novo comando chamado rem, a diferença dele para o em é que o rem segue o padrão do elemento raiz
+    <br>
+    e no caso aqui neste documento é o html, caso mudarmos a fonte do html todos os documentos de medida rem serão
+    alterados.
+
+    <div class="T5"> <b> TESTE PRINCIPAL </b>
+        <div class="T6"> TEXTO SECUNDÁRIO </div>
+    </div> <br> <br>
+    <div class="Coment">Nota-se que o TEXTO SECUNDÁRIO junto com o background mantiveram o tamanho da fonte natural da
+        página por conta do rem ser igual a 1</div>
+    <br>
+
+    Agora veremos a unidade de medida VW, esta unidade representa a porcentagem do tamanho da nossa janela
+    horizontalmente.
+
+    <div class="T7">XXXXXXXX <div class="T8">ZZZZZZZZZ</div>
+    </div> <br>
+    <div class="Coment">Aqui no caso o XXXXXXXX está configurado para 50 vw (metade da tela) e o ZZZZZZZZZ com 50px
+    </div> <br>
+    <br>
+    Também existe a unidade VH que é a mesma coisa do VW porém horizontalmente.
+    <div class="T9">XXXXXXXX <div class="T10">ZZZZZZZZZ</div>
+    </div> <br>
+
+    Usando a unidade VMIN usamos o menor lado da página como referência.
+    <div class="T11">XXXXXXXX <div class="T12">ZZZZZZZZZ</div>
+    </div> <br>
+    Como existe a unidade que busca o menor o VMAX usa a do maior.
+    <div class="T13">XXXXXXXX <div class="T14">ZZZZZZZZZ</div>
+    </div> <br>
+
+    <br>
+    A ultima unidade de medida é a de %, ela representa a porcentagem de acordo com a fonte (caso não definida fonte
+    será igual a do body)
+    <div class="GatoGordo">
+        <div class="GatoMagro"></div>
+    </div>
+
+    <div class="Coment">Nota-se que como o gato magro está ligado a 20% do tamanho da imagem do gato gordo ele continua
+        na mesma proporção que o gato gordo aumenta e diminui</div>
+
+
+
+    </p>
+    <br><br>
+    <hr>
+
+    <h2>Aula 12 - Margin e Padding</h2>
+
+    Margin é o comando usado para aumentar a distancia entre um bloco e outro e <br>
+    padding é para fazer um bloco entrar no outro. <br>
+    Ex.: <br>
+    <div id="Aula12B1">
+        <div id="Aula12B2"></div>
+    </div>
+    <div class="Coment">Neste exemplo a margem do quadrado laranja é de 0 por isto ele chega bem próximo do texto Ex.
+        <br>
+        já o quadrado azul está com 200px de margem e por isso encontra-se longe do quadrado laranja
+    </div>
+
+    <br>
+    Ex. 2:
+    <div id="Aula12B3">
+        <div id="Aula12B4"></div>
+    </div>
+    <div class="Coment">Neste caso o quadrado laranja está circulando o azul com sobra de 10pixels por conta do padding
+        ser 10px <br>
+        demonstrando que o padding diferente do margin permite o que está fora penetre no que está dentro.</div>
+
+    <br><br>
+
+    <hr>
+
+    <h2>Aula 13 - Border</h2>
+    <br><br>
+
+    <p>
+        Podemos adicionar borda nos elementos usando o comando Border.
+
+    <div class="Borda">EXEMPLO</div> <br>
+
+    Caso a borda seja determinada como redonda, mesmo a imagem sendo quadrada ela manterá a forma da borda <br>
+    Ex.: <br>
+    <div class="Gatinho BordaRedonda"></div> <br>
+    Para simplificar o comando de borda podemos apenas acionar o comando <br>
+    border: e colocar na ordem espessura, estilo e cor. <br>
+    Ex.: border: 5px solid red;
+
+    </p>
+    <br><br>
+    <hr>
+
+    <h2>Aula 14 - Box Model </h2>
+
+    <p>
+        Este é o exemplo de como ficam divididos o margin padding e borda. <br>
+        ex.: <br>
+
+    <div class="aula14container">
+        <div class="aula14content">CONTEÚDO
+
+        </div>
+    </div>
+    <br>
+    primeira div:(background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px;)
+    <br>
+    Segunda div: background-color: #ddd;
+    border: 5px solid green;
+    margin: 5px; <br>
+    </p>
+
+    <br><br>
+    <hr>
+
+    <h2>Aula 15 - Fontes</h2>
+
+
+    <p>
+        Serifa: Detalhes nas letras <br>
+        Sem serifa: Sem as pontas nas letras <br>
+        Space: todos os caracteres tem a mesma largura. <br>
+        Família da fonte: Times roman, comic sans.. <br>
+        Comandos: <br>
+        font-family <br>
+        font-style <br>
+        font-size <br>
+        font-weight "bold = negrito" <br>
+        font-variant "small-caps é para deixar todas as letras maiúsculas" <br>
+
+    </p>
+
+    <br><br>
+    <hr>
+
+    <h2>Aula 16 - Estilo de link</h2>
+
+    Neste módulo é ensinado como criar um botão clicável.
+    <br> <br><br>
+    <a class="Aula16" href="./Páginas/gatinho.html">GATINHOS</a>
+    <br><br>
+    <a class="Aula16" href="#n deve clicar">Link de quem não gosta de gatinhos</a>
+
+    <p>
+
+    </p>
+
+    <br><br>
+    <hr>
+
+    <h2>Aula 17 - Listas</h2>
+
+    <p>
+    <ul class="Aula17UL">
+        <li class="Aula17ULLI">item 1</li>
+        <li class="Aula17ULLI">item 2</li>
+        <li class="Aula17ULLI">item 3</li>
+    </ul>
+    <br>
+    <ol class="Aula17OL">
+        <li class="Aula17OLLI">item 1</li>
+        <li class="Aula17OLLI">item 2</li>
+        <li class="Aula17OLLI">item 3</li>
+    </ol>
+    <br>
+    Lista de tipos de marcação para listas: <br>
+    disc Default value. The marker is a filled circle <br>
+    armenian The marker is traditional Armenian numbering <br>
+    circle The marker is a circle <br>
+    cjk-ideographic The marker is plain ideographic numbers <br>
+    decimal The marker is a number <br>
+    decimal-leading-zero The marker is a number with leading zeros (01, 02, 03, etc.) <br>
+    georgian The marker is traditional Georgian numbering <br>
+    hebrew The marker is traditional Hebrew numbering <br>
+    hiragana The marker is traditional Hiragana numbering <br>
+    hiragana-iroha The marker is traditional Hiragana iroha numbering <br>
+    katakana The marker is traditional Katakana numbering <br>
+    katakana-iroha The marker is traditional Katakana iroha numbering <br>
+    lower-alpha The marker is lower-alpha (a, b, c, d, e, etc.) <br>
+    lower-greek The marker is lower-greek <br>
+    lower-latin The marker is lower-latin (a, b, c, d, e, etc.) <br>
+    lower-roman The marker is lower-roman (i, ii, iii, iv, v, etc.) <br>
+    none No marker is shown <br>
+    square The marker is a square <br>
+    upper-alpha The marker is upper-alpha (A, B, C, D, E, etc.) <br>
+    upper-greek The marker is upper-greek <br>
+    upper-latin The marker is upper-latin (A, B, C, D, E, etc.) <br>
+    upper-roman The marker is upper-roman (I, II, III, IV, V, etc.) <br>
+    </p> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <img src="https://i.pinimg.com/200x150/42/83/0a/42830a45df5ed2f3ce3a7dfc5bb04af2.jpg" alt="Gatinho gordo triste"
+        id="gatotriste" width="1000">
+</body>
+
+</html>

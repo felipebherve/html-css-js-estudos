@@ -1,0 +1,561 @@
+body{
+    background-color: rgb(245, 132, 2) ;
+    background-attachment: scroll;
+    background-size: cover;
+    color: wheat;
+    font-size: 1.5em;
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+            
+
+}
+
+#cabeçalho{
+    background-image: url(../assets/fundo-dos-feijões-de-café-5039280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 8px;
+    margin: 0px;
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 100px;
+border: 1px solid;
+box-sizing: border-box;
+text-align: center;
+text-transform: uppercase;
+text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+.BotãoTopo{
+    background-image: url(../assets/fundo-dos-feijões-de-café-5039280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: wheat;
+    text-shadow: 
+               -1px -1px 0px rgb(49, 22, 0), 
+               -1px 1px 0px rgb(49, 22, 0),                    
+                1px -1px 0px rgb(49, 22, 0),                  
+                1px 0px 0px rgb(49, 22, 0);
+    
+    border: 1px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    text-align: center;   
+}
+.BotãoTopo:hover{
+    background-image: url(../assets/fundo-dos-feijões-de-café-5039280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(109, 59, 1);
+    text-shadow: 
+               -1px -1px 0px rgb(49, 22, 0), 
+               -1px 1px 0px rgb(49, 22, 0),                    
+                1px -1px 0px rgb(49, 22, 0),                  
+                1px 0px 0px rgb(49, 22, 0);
+    
+    border: 1px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    text-align: center; 
+}
+
+.botão{
+    color: wheat;
+    text-shadow: 
+               -1px -1px 0px rgb(49, 22, 0), 
+               -1px 1px 0px rgb(49, 22, 0),                    
+                1px -1px 0px rgb(49, 22, 0),                  
+                1px 0px 0px rgb(49, 22, 0);
+    background-color: rgb(109, 59, 1);
+    border: 1px;
+    border-radius: 0px; 
+    margin: 10px; 
+    padding: 7px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.botão:hover{
+    color: rgb(109, 59, 1);
+    text-shadow: 
+               -1px -1px 0px rgb(49, 22, 0), 
+               -1px 1px 0px rgb(49, 22, 0),                    
+                1px -1px 0px rgb(49, 22, 0),                  
+                1px 0px 0px rgb(49, 22, 0);
+    background-color: wheat;
+    border: 1px;
+    border-radius: 0px; 
+    margin: 10px; 
+    padding: 7px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#Aula1{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+.blocodeaula{
+    background-color: rgb(109, 59, 1);
+    border: 1px;
+    border-radius: 50px; 
+    margin: 5px; 
+    padding: 7px;
+}
+
+#Aula2{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+#Aula3{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+.Container1Aula3{
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+}
+.Container2Aula3{
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    overflow: visible;
+}
+.Container3Aula3{
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    overflow: hidden ;
+}
+.Container4Aula3{
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    overflow: scroll ;
+}
+.Container5Aula3{
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    overflow: auto ;
+}
+.Container6Aula3{
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#Aula4{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+.quadradoAula4{
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/Background\ cafe2.jpg);
+    background-size: cover;
+
+
+}
+.quadradoAula4margin{
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/Background\ cafe2.jpg);
+    background-size: cover;
+
+    margin-left: 500px;
+}
+.quadradoAula4Auto{
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/Background\ cafe2.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.quadradoAula4autoleft{
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/Background\ cafe2.jpg);
+    background-size: cover;
+    margin-left: auto;
+}
+
+#Aula5{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+
+}
+
+.borderAula5{
+    width: 500px;
+    height: 400px;
+    border: 1px solid wheat;
+    margin: auto;
+}    
+.quadradoAula5{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-redAula5{
+    background-color: red;
+}
+.quadrado-blueAuça5{
+    position:relative;
+    left: 20px;
+    top: 20px;
+    background-color: blue;
+}
+.quadrado-greenAula5{
+    background-color: green;
+}
+
+#Aula6{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+
+}
+
+.quadradoAu6{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.BordaAula6{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    border: 1px solid wheat;
+    margin: auto;
+}
+
+.QredAula6{
+    background-color: red;
+
+}
+
+.QblueAula6{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: blue;
+
+}
+
+.QgreenAula6{
+    background-color: green;
+}
+
+#Aula7{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+
+}
+
+.BordaAula7{
+    position: relative;
+
+    width: 500px;
+    height: 400px;
+    border: 1px solid wheat;
+    margin: auto;
+
+}
+
+.Au7botão{
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: wheat;
+    text-shadow: 
+               -1px -1px 0px rgb(49, 22, 0), 
+               -1px 1px 0px rgb(49, 22, 0),                    
+                1px -1px 0px rgb(49, 22, 0),                  
+                1px 0px 0px rgb(49, 22, 0);
+    background-image: url(../assets/fundo-dos-feijões-de-café-5039280.jpg);
+    border: 1px;
+    border-radius: 50px; 
+    margin: 10px; 
+    padding: 7px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;            
+      
+}
+
+#Aula8{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+
+.quadradoA8{
+    width: 100%;
+    height: 200px;
+    border: 20px;
+}
+
+.redA8{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+background-image: url(../assets/gat.jpg);
+background-size: repeat;
+background-attachment: scroll;
+margin: auto;
+border-radius: 20px;
+}
+
+#Aula9{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+.bordA9{
+    border: 1px;
+    border-style: solid;
+    border-color: wheat;
+}
+
+.gatinA9{
+    float: left;
+    width: 200px;
+}
+
+.A9UL{ list-style: none;
+
+}
+.A9LI{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 30px;
+    color: rgb(49, 22, 0);
+    overflow: auto;
+    text-align: center;
+
+}
+
+
+#Aula10{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+.cardA10{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 2px solid wheat;
+    text-align: center;
+
+}
+
+.C1A10{
+    background-color: red;
+    line-height: 200px;
+
+}
+
+.C2A10{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: blue;
+    transform: translate(-50%, -50%);
+
+}
+
+#Aula11{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+.rodapé{
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 10px;
+
+    padding: 7px;
+    background-color: wheat;
+   
+    
+}
+#Aula12{
+    font-weight: bold;
+    color: wheat;
+    vertical-align:middle;
+    font-style:oblique;
+    font-size: 3rem;
+    text-align: center;
+text-transform: uppercase;
+
+    text-shadow: 
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),                    
+                1px -1px 0px rgb(0, 0, 0),                  
+                1px 0px 0px rgb(0, 0, 0);
+}
+
+
+
+
+
+

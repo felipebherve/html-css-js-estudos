@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Intermediário</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1 id="cabeçalho">Módulo 4: CSS Intermediário</h1>
+    <hr>
+    <ul style="list-style: none;">
+
+    <li class="rodapé"><a class="botão" href="#Aula1">AULA 01</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula2">AULA 02</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula3">AULA 03</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula4">AULA 04</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula5">AULA 05</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula6">AULA 06</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula7">AULA 07</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula8">AULA 08</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula9">AULA 09</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula10">AULA 10</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula11">AULA 11</a></li>
+    <li class="rodapé"><a class="botão" href="#Aula12">AULA 12</a></li>
+</ul>
+    
+    <hr>
+
+
+
+
+
+
+    <div class="blocodeaula">
+
+        <p>
+        <h2 id="Aula1">Aula 1: Introdução CSS Intermediário </h2>
+        Introdução básica ao conteúdo de css
+        </p>
+        <a class="BotãoTopo" href="#cabeçalho">VOLTAR AO TOPO</a>
+    </div>
+    <hr>
+
+
+
+
+
+    <div class="blocodeaula">
+        <p>
+        <h2 id="Aula2">Aula 2: Display</h2>
+
+        Esta aula é para explicar tipos de display sendo eles: <br>
+        display:none display:block display:inline e display:inline-block <br>
+        O parágrafo por exemplo é um display block: quando terminado o conteúdo ele é direcionado <br>
+        para um novo bloco. <br>
+
+        ~~~~~* Use o direito no elemento e vá em inspecionar, depois no filtro busque por display para ver os diferentes
+        tipos <br>
+        de display.
+
+        ex: <br> <br>
+
+        <div>
+            <div style="background-color: blueviolet;">Esta é uma div normal</div>
+            <div>E aqui a história <div style="background-color: red; width: 500px; height: 30px;">div de dentro</div>
+                continua.</div>
+
+        </div> <br>
+        ~~~~~~*Neste exemplo vemos que a div também se comporta como um display block
+        <hr>
+
+        <div>
+            <p style="margin: 0px;">Este é um parágrafo normal</p>
+            <p style="margin: 0px;">E aqui a história continua</p>
+
+        </div><br>
+        ~~~~~~*Aqui retiramos a margem do paragrafo para que ele se comporte como um display inline-block.
+        <hr>
+
+        <p>
+            Aqui tenho um inicio de um parágrafo <span
+                style="background-color: greenyellow; width: 500px; height: 20px;">
+                um span
+                no meio </span> E o fim do paragrafo.
+        </p> <br>
+
+        ~~~~~~*Neste exemplo vemos que o span é um display inline e <br>
+        por isso não podemos alterar nem o tamanho nem a altura do background sugerido. <br>
+        <hr>
+
+        <p>
+            Aqui tenho um inicio de um parágrafo <span
+                style="background-color: greenyellow; width: 500px; height: 20px; display: inline-block;"> um span
+                no meio </span> E o fim do paragrafo.
+        </p> <br>
+        ~~~~~~~* Usando o mesmo exemplo porém alterando o span como inline-block.
+        <hr>
+
+
+
+        <p style="background-color: blueviolet;">
+
+            Aqui eu tenho o inicio de um parágrafo
+        <div style="background-color: red;">uma div
+            no meio</div> E o fim do parágrafo.
+
+        </p>
+        ~~~~~~~~* O violeta não continua por conta do elemento div ser um display de block <br>
+        com este exemplo entendemos o porquê nunca se deve usar um elemento de block dentro de outro. <br>
+        Exemplo div dentro de paragrafo ou parágrafo dentro de div. <br>
+        <hr>
+
+        <p>
+            Aqui eu tenho o inicio de um parágrafo <img style="width: 100px; display: none;" src="
+        ./assets/gat.jpg" alt="gatinho"> E o fim do parágrafo.
+        </p> <br>
+        ~~~~~~~*Este exemplo mostra como o display none não mostra nem a imagem nem como ela nunca tivesse existido.
+        <br>
+        <hr>
+
+        <p>
+            Aqui eu tenho o inicio de um parágrafo <img style="width: 100px; visibility: hidden;" src="
+        ./assets/gat.jpg" alt="gatinho"> E o fim do parágrafo.
+        </p> <br>
+        ~~~~~~~~~*Este exemplo é para mostrar como funciona o visibility: hidden; que é como se a imagem existisse, <br>
+        houvesse o display do tamanho dela porém ela não aparece. <br>
+        <hr>
+
+        <p>
+            Aqui eu tenho o inicio de um parágrafo <img style="width: 100px;" src="
+        ./assets/gat.jpg" alt="gatinho"> E o fim do parágrafo.
+        </p> <br>
+
+        ~~~~~~*E aqui é para mostrar que o img tem um display inline-block e como ficaria sem o hidden e sem o none.
+
+        </p>
+        <a class="BotãoTopo" href="#cabeçalho">VOLTAR AO TOPO</a>
+    </div>
+    <hr>
+
+
+
+    <div class="blocodeaula">
+        <p>
+        <h2 id="Aula3">Aula 3: Overflow</h2>
+        Quando você tem um conteúdo dentro de um elemento em que o conteúdo é maior que o elemento. <br>
+        ex.: <br>
+        <hr>
+        <br>
+        <div class="Container1Aula3">
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+            Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+
+        </div> <br><br><br><br><br> <br><br><br>
+        Neste exemplo mostramos que como o tamanho do background está menor que o texto, <br>
+        o texto acaba passando do background.
+        <hr>
+        <div class="Container2Aula3">
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+            Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+
+        </div> <br><br><br><br><br> <br><br><br>
+        Neste exemplo vimos o overflow visible que é o padrão e ficará igual o exemplo anterior
+        <hr>
+        <div class="Container3Aula3">
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+            Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+
+        </div>
+        Neste exemplo usamo o overflow:hidden. Ele esconde o conteúdo a mais.
+
+        <hr>
+        <div class="Container4Aula3">
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+            Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+
+        </div>
+        Neste exemplo usamos o scroll o qual nos dá uma nova barra de scroll.
+        <hr>
+        <div class="Container5Aula3">
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem
+            Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+            lorem Ipsum lorem Ipsum lorem Ipsum lorem Ipsum
+
+        </div>
+        Neste exemplo usamos o overflow auto, o qual coloca um scroll apenas onde é necessário.
+        <hr>
+        <div class="Container6Aula3">
+            <img style="width: 800px;" src="./assets/gat.jpg" alt="Gatinho">
+
+        </div>
+        Exemplo com imagem.
+        <hr>
+        </p>
+
+        <a class="BotãoTopo" href="#cabeçalho">VOLTAR AO TOPO</a>
+
+
+    </div>
+    <hr>
+
+
+
+
+    <div class="blocodeaula">
+        <p>
+        <h2 id="Aula4">Aula 4: Alinhamento Horizontal</h2>
+        <br>
+        Nesta aula vamos aprender como posicionar uma imagem, texto, bloco na página. <br>
+        ex.: <br>
+        <hr>
+        Esta div está sem margin apenas com sua largura e altura.
+        <div class="quadradoAula4"></div>
+        <hr>
+        Esta div está com margin programada para 500px left.
+        <div class="quadradoAula4margin"></div>
+        <hr>
+        Para garantir que a margem fique centralizada usamos o comando auto. <br>
+        <div class="quadradoAula4Auto"></div>
+        <hr>
+        Usando o mesmo comando auto porém com a margin left garantimos que o quadrado se posicione na direita. <br>
+        <div class="quadradoAula4autoleft"></div>
+        <hr>
+        Caso seja apenas uma imagem e não background precisamos modificar o display da imagem para block. <br>
+        Dessa forma a imagem funcionará como uma div.
+        <img style="width: 100px; display: block; margin:auto ;" src="./assets/gat.jpg" alt="imagem de gatinho">
+        <hr>
+        Outra maneira de mudar a imagem de local seria colocando uma div com as configurações text-align center ou
+        right. <br>
+
+        <div style="text-align: center; display:inline-block;"><img style="width: 100px;" src="./assets/gat.jpg" alt="">
+        </div>
+        <div style="text-align: right; display:inline-block;"><img style="width: 100px;" src="./assets/gat.jpg" alt="">
+        </div>
+        <div style="background-color: yellow;color: black; text-decoration: solid; text-align: center;">DÚVIDA SOBRE
+            COMO AS IMAGENS FICAM UMA DO LADO DA OUTRA</div>
+        <hr>
+
+        </p>
+        <br><br><br>
+
+        <a class="BotãoTopo" href="#cabeçalho">VOLTAR AO TOPO</a> <br>
+
+
+    </div>
+
+    <hr>
+    <div class="blocodeaula">
+
+        <p>
+        <h2 id="Aula5">Aula 5 - Position - Static e Relative</h2>
+        <br>
+        Nesta aula vamos aprender o comando position.
+        ex1.:
+        Usando a configuração position:relative indica que vai ser relativo a configuração padrão. No caso do <br>
+        quadrado azul colocaremos que ele terá 20px de espaçamento para a esquerda.
+        <div class="borderAula5">
+
+            <div class="quadradoAula5 quadrado-redAula5"></div>
+            <div class="quadradoAula5 quadrado-blueAuça5"></div>
+            <div class="quadradoAula5 quadrado-greenAula5"></div>
+
+        </div>
+        O quadrado azul entra para o verde por conta do position não inserir um bloco de espaço como funciona no margin,
+        <br>
+        quando mexemos no margin o espaço dado entre os blocos iria empurrar o bloco verde para baixo.
+
+        </p>
+
+        <a class="BotãoTopo" href="#cabeçalho">VOLTAR AO TOPO</a>
+        <br>
+
+
+    </div>
+    <hr>
+
+
+    <div class="blocodeaula">
+
+        <p>
+        <h2 id="Aula6">Aula 6 - Position Ablosute</h2>
+        <br>
+        O position:absolute ignora a existência do block se tratando da figura, por exemplo, <br>
+        o quadrado azul deixa de ocupar a posição e existir a margem do block. <br> <br>
+
+        <div class="BordaAula6">
+            <div class="QredAula6 quadradoAu6"></div>
+            <div class="QblueAula6 quadradoAu6"></div>
+            <div class="QgreenAula6 quadradoAu6"></div>
+
+        </div>
+
+        Nota: Para que o quadrado em borda seja adotado como base para o position ablosute deve-se ordenar que ele tenha
+        algum position <br>
+        no caso usado o relative para que a partir disso o quadrado azul tome parte as dimenções adotadas pela borda.
+        <br>
+        Caso não existisse posicionamento para a borda o quadrado azul adotaria a position pré configurada "no caso a do
+        boddy"
+        <br>
+
+
+        </p>
+
+        <a class="BotãoTopo" href="#cabeçalho">VOLTAR AO TOPO</a> <br>
+
+
+
+    </div>
+    <hr>
+    <br>
+    <div class="blocodeaula">
+
+        <p>
+        <h2 id="Aula7">Aula 7 - Position - Fixed</h2>
+
+        Nesta aula aprendemos a prender algo na tela independente da rolagem, para simplificar a explicação <br>
+        farei um botão de rolagem fixo para o topo no canto direito inferior da tela.
+
+        <a class="Au7botão" href="#cabeçalho">TOP</a>
+
+
+
+
+
+
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="blocodeaula">
+
+        <p>
+        <h2 id="Aula8">Aula 8 - Position - Sticky</h2>
+        <br><br>
+
+        Position stick prende o elemento a partir de alguma determinação sem alterar o formato de "block". <br>
+        <br>
+
+        Agora o gatinho acompanhará você até mudar de bloco de aula.
+
+        <div class="redA8 quadradoA8"></div> <br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+        </p>
+
+
+    </div>
+    <hr>
+
+    <div class="blocodeaula">
+        <p>
+        <h2 id="Aula9">Aula 9 - Float</h2>
+
+        Nesta aula aprendemos a usar o comando float. <br>
+        Ele é um comando útil para criar listas e inserir imagens em textos fazendo os textos contornarem a imagem. <br>
+        <br>
+        ex.: <br>
+        <div class="bordA9">
+
+            <img class="gatinA9" src="./assets/gat.jpg" alt="Gatintristin">
+            <p>Gatin tristin Fofo
+                Gatin tristin FofoGatin tristin FofoGatin tristin FofoGatin tristin FofoGatin tristin FofoGatin tristin
+                Fofo
+                Gatin tristin FofoGatin tristin FofoGatin tristin FofoGatin tristin FofoGatin tristin FofoGatin tristin
+                Fofo
+                Gatin tristin FofoGatin tristin FofoGatin tristin FofoGatin tristin Fofo</p>
+
+        </div> <br><br> <br>
+        Neste exemplo o gatinho passa da borda e fica flutuando, para que ele não passe da borda <br>
+        é necessário colocar o comando na borda overflow:Auto. Assim o gatinho se manterá dentro da borda.
+        <hr>
+        <br>
+        Outro uso para o <b>FLOAT</b> é criar listas e cabeçalhos com o UL e LI. <br>
+        ex.: <br>
+
+        <div>
+            <ul class="A9UL">
+                <li class="A9LI">Pamonha</li>
+                <li class="A9LI">Pamonha</li>
+                <li class="A9LI">Pamonha</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+
+
+
+
+
+        </p>
+    </div>
+
+    <hr><br>
+
+    <div class="blocodeaula">
+
+        <p>
+        <h2 id="Aula10">Aula 10 - Alinhamento Vertical</h2>
+        <br><br><br>
+        Existem duas formas para se alinhar algo horizontalmente:
+        <br><br><br>
+
+        <div class="cardA10">
+
+            <div class="C1A10">Felipe Bruno Hervé</div>
+
+        </div>
+        <div class="cardA10">
+
+            <div class="C2A10">Felipe Bruno Hervé</div>
+
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        </p>
+
+
+    </div>
+
+    <div class="blocodeaula">
+
+        <p>
+            <h2 id="Aula11">Aula 11 - Viewport</h2>
+            <br><br>
+            Esta aula aprendemos a usar a metatag para que a página possa ser vista de celular e computador, sendo:
+            <br><br>
+            <b> meta name="viewport" content="width=device-width, initial-scale=1.0  </b>    <br><br>
+            Serve para deixar a página responsiva.       
+
+
+        </p>
+
+
+    </div>
+
+    <div class="blocodeaula">
+
+        <p>
+            <h2 id="Aula12">Aula 12 - Responsividade</h2>
+            <br><br>
+            
+        </p>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <a class="BotãoTopo" href="#cabeçalho">VOLTAR AO TOPO</a>
+</body>
+
+</html>

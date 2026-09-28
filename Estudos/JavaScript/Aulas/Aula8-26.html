@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 8/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <article class="ContainerAula">
+        <h2>Aula 8 - Operadores Comparativos em JavaScript</h1>
+<p>Em JavaScript, os operadores comparativos são usados para comparar valores e determinar relações entre eles.</p>
+
+<h3>Igual (`==`)</h3>
+<p>Verifica se dois valores são iguais, realizando uma coerção de tipo se necessário.</p>
+<pre>
+console.log(5 == "5"); // true, porque ocorre coerção de tipo e ambos são tratados como o mesmo valor
+console.log(true == 1); // true, porque booleanos podem ser convertidos para números (1 para true, 0 para false)
+</pre>
+
+<h3>Estritamente Igual (`===`)</h3>
+<p>Verifica se dois valores são iguais, sem realizar coerção de tipo.</p>
+<pre>
+console.log(5 === "5"); // false, 5 numeral é diferente de 5 string
+console.log(true === 1); // false, porque os tipos são diferentes
+console.log(5 === 5) // true, 5 numeral é igual a 5 numeral
+</pre>
+
+<h3>Diferente (`!=`)</h3>
+<p>Verifica se dois valores não são iguais, com coerção de tipo se necessário.</p>
+<pre>
+console.log(5 != "5"); // false, porque ocorre coerção de tipo e ambos são tratados como o mesmo valor
+console.log(true != 1); // false, porque booleanos podem ser convertidos para números
+</pre>
+
+<h3>Estritamente Diferente (`!==`)</h3>
+<p>Verifica se dois valores não são iguais, sem realizar coerção de tipo.</p>
+<pre>
+console.log(5 !== "5"); // true, porque não ocorre coerção de tipo
+console.log(true !== 1); // true, porque os tipos são diferentes
+</pre>
+
+<h3>Maior que (`&gt;`)</h3>
+<p>Verifica se o valor à esquerda é maior do que o valor à direita.</p>
+<pre>
+console.log(10 &gt; 5); // true, porque 10 é maior do que 5
+</pre>
+
+<h3>Maior ou igual a (`&gt;=`)</h3>
+<p>Verifica se o valor à esquerda é maior ou igual ao valor à direita.</p>
+<pre>
+console.log(10 &gt;= 10); // true, porque 10 é igual a 10
+</pre>
+
+<h3>Menor que (`&lt;`)</h3>
+<p>Verifica se o valor à esquerda é menor do que o valor à direita.</p>
+<pre>
+console.log(3 &lt; 7); // true, porque 3 é menor do que 7
+</pre>
+
+<h3>Menor ou igual a (`&lt;=`)</h3>
+<p>Verifica se o valor à esquerda é menor ou igual ao valor à direita.</p>
+<pre>
+console.log(5 &lt;= 5); // true, porque 5 é igual a 5
+</pre>
+
+    </article>    
+</body>
+</html>

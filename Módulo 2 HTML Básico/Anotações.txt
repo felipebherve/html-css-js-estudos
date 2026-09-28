@@ -1,0 +1,141 @@
+	Aula "Tag"
+
+tag são como espaços para separar as coisas
+
+ex de tag: <nomeDaTag> Meu título</nomeDaTag>
+Abertura da tag, texto e fechamento de tag
+"elemento html"
+
+Caso precise adicionar mais alguma coisa é necessário criar
+novas tags, exemplo:
+<nomeDaTag>Meu título</nomeDaTag> 
+<nomeTagParagrafo> linhas puladas </nomeTagParagrafo>
+No sublime View > Sintax > html para destacar os tags de html
+
+Quando o programa consegue decifrar os tags o programa consegue
+dar valor diferente para as devidas lindas de código
+
+
+	Aula "Estrutura Básica"
+
+https://www.w3schools.com/
+
+Iniciando um html com <!DOCTYPE html> diz que é 
+a atualização 5 de html
+https://www.w3schools.com/tags/tag_doctype.asp
+
+Head comando para a cabeça/topo da pagina,
+title comando para fixar o título
+meta comando para dizer qual tipo de caracteres estão sendo usados
+Charset é para especificar o meta e o usado para botar acentos é
+o UTF-8
+
+	Aula "Títulos e Parágrafos"
+
+usamos os comandos no boddy de H1 até o H6 para adicionar títulos
+e para escrever os parágrafos é dado o comando <p>
+
+
+	Aula "Comentários"
+
+Para se adicionar um comentário é usada a ferramenta <!~~ e fecha o comentário com ~~>
+
+	Aula "Formatação"
+
+Tags de formatação:
+
+Para colocar em negrito 
+<b>negrito</b> 
+Para ser destacada para pesquisa
+<strong>negrito</strong>
+
+Para colocar em itálico
+<i>itático</i>
+Para ser mais destacado para pesquisa
+<em>Ênfaze</em>
+
+Para marcar um texto
+<mark> marcado </mark>
+
+Para diminuir o texto
+<small> texto fica menor </small>
+
+Para riscar o texto
+<dell> texto riscado </dell>
+Para destacar para pesquisa texto riscado
+<s> texto riscado </s>
+
+Para inserir um texto
+<ins> texto sublinhado </ins?
+Texto sublinhado para pesquisa
+<u> texto sublinhado </u>
+
+Para colocar um texto abaixo da linha de texto
+<sub> texto abaixo </sub>
+
+Para colocar um texto ascima da linha  de texto
+<sup> texto ascima </sup>
+
+
+	Aula "Links"
+
+Para colocar uma ação usamos o comando <a></a>
+O comando para colocar um link é <a href="nome da página que quer botar"> </a>
+
+
+	Aula "Imagens"
+
+Para adicionar uma imagem <img src="link da imagem">
+Caso a página precise de indicação para a imagem 
+<img src="Link da imagem" alt="indicação de imagem">
+
+Caso a imagem esteja na mesma pasta ou numa pasta em nível superior
+<img src="pasta base/arquivo.jpg" alt="indicação de imagem">
+
+Caso deseje que a imagem vire um link
+<a href="nome da página que quer botar">
+<img src="pasta base/arquivo.jpg" alt="indicação de imagem"> 
+</a>
+(nota-se que se inicia com <a.. e termina o </a> apenas após toda a 
+composição da imagem
+
+Para diminuir ou aumentar proporções da imagem
+<img src="pasta base/arquivo.jpg" alt="indicação de imagem" width=valor>
+(alterar a largura)
+<img src="pasta base/arquivo.jpg" alt="indicação de imagem" height=valor>
+(alterar a altura)
+
+
+	Aula "quebra de linha"
+
+Como a imagem não funciona como o texto podemos usar a tag <br> 
+para pular ou qurbrar a linha
+
+	Aula "Criação de Listas"
+
+Tag <ul> </ul>
+Cada item tem a tag <li> </li>
+
+Para lista ordenada <ol> </ol>
+
+	Aula "Tablea"
+
+Usamos o comando <table> para iiniciar a tabela </table> para fechar
+<tr> para linha da tabelha </tr>
+<th> (table head) para título </th>
+<td> (table data) para itens </td>
+
+
+	Aula "Como enviar o seu projeto para o suporte"
+
+Sempre que for enviar um projeto deve comprimir para .rar ou .zip
+
+
+	Aula "Desafio HTML Básico"
+
+Buscar no site https://www.w3schools.com/html/ formas de aprimorar o html
+desafio era para buscar a linha: cod <hr>
+
+mandar e-mail <a href="mailto:someone@example.com">Send email</a>
+
+

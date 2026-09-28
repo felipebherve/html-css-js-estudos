@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 17/26</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <article class="ContainerAula">
+
+        <h2>Aula 17/26 - Arrays</h2>
+
+
+        <p>
+            Um <strong>array</strong> é uma estrutura de dados que permite armazenar uma <b>coleção ordenada de
+                valores</b>. Esses valores podem
+            ser de <b>qualquer tipo de dado</b>, como números, strings, objetos ou até mesmo outros
+            <strong>arrays</strong>. Os <strong>arrays</strong> são muito
+            versáteis e amplamente usados para armazenar e manipular conjuntos de dados.
+
+        </p>
+
+        <p>
+            Aqui estão os <b>conceitos</b> fundamentais sobre <strong>arrays</strong> em JavaScript:
+        </p>
+
+        <h3>Declarando um <strong>Array</strong>:</h3>
+
+        <p>
+            Você pode criar um <strong>array</strong> de várias maneiras. A forma mais comum é usando colchetes
+            <b>[]</b>.
+
+        </p>
+
+        <pre>
+
+            var meuArray = []; // Array vazio
+
+        </pre>
+
+        <p>
+            Você também pode criar um <strong>array</strong> com valores iniciais:
+        </p>
+
+        <pre>
+
+            var frutas = ["Maçã", "Banana", "Laranja"];
+
+        </pre>
+
+        <h3>Acesso a <b>Elementos</b>:</h3>
+
+        <p>
+            Os elementos de um array são acessados por meio de índices, começando em 0 para o primeiro elemento.
+        </p>
+
+        <pre>
+
+            var primeiraFruta = frutas[0]; // "Maçã"
+            var segundaFruta = frutas[1];  // "Banana"
+
+        </pre>
+
+        <h3>Tamanho de um <strong>Array</strong>:</h3>
+
+        <p>
+            Você pode verificar o tamanho de um array usando a propriedade <strong>length</strong>:
+        </p>
+
+        <pre>
+
+            var tamanho = frutas.<b>length</b>; // 3
+
+        </pre>
+
+        <h3>Modificar Elementos:</h3>
+
+        <p>
+            Você pode adicionar, modificar e remover elementos de um array.
+        </p>
+
+
+        <ul>
+            <li>
+                Adicionar um elemento ao final do array
+            </li>
+            <pre>
+                frutas.<b>push</b>("Pêra");
+            </pre>
+
+            <li>Remover o último elemento do array:</li>
+            <pre>
+                frutas.<b>pop</b>();
+            </pre>
+
+            <li>Adicionar um elemento ao início do array:</li>
+            <pre>
+                frutas.<b>unshift</b>("Morango");
+            </pre>
+
+            <li>
+                Remover o primeiro elemento do array:
+            </li>
+            <pre>
+                frutas.<b>shift</b>();
+            </pre>
+        </ul>
+
+        <h3>Iteração através de um <strong>Array</strong>:</h3>
+
+        <p>
+            Você pode percorrer todos os elementos de um <strong>array</strong> usando loops, como <b>for</b>,
+            <b>while</b> ou métodos de array, como
+            <b>forEach</b>.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula17-1.png" alt="Exemplo do chatgpt"></div>
+
+        <h3>Métodos Úteis:</h3>
+
+        <p>
+            JavaScript fornece muitos métodos úteis para manipular arrays, como <b>map, filter, reduce, slice,
+                splice,</b> entre
+            outros. Esses métodos facilitam a transformação e manipulação de arrays de maneira eficiente.
+        </p>
+
+        <div><img src="./ImagensAulas/Aula17-2.png" alt="Exemplo de uso dos arrays"></div>
+
+        <p>
+            Os arrays são uma parte fundamental da linguagem JavaScript e são usados para uma variedade de tarefas,
+            desde
+            armazenar dados simples até criar estruturas de dados mais complexas. Eles são versáteis e oferecem muitas
+            maneiras de acessar e manipular seus elementos, tornando-os uma ferramenta poderosa para programadores.
+
+        </p>
+
+        <p>Simplificando e entendendo o array através dos scripts</p>
+
+        <p>exemplo base de array:</p>
+        <div><img src="./ImagensAulas/Aula17-Base.png" alt="Exemplo básico de array"></div>
+
+        <p>Sem usar o array</p>
+        <div><img src="./ImagensAulas/Aula17-Base 1.png" alt="Referente ao código sem usar o array"></div>
+
+        <p>simplificando o código usando o array para os alunos.</p>
+        <div><img src="./ImagensAulas/Aula17-Base 2.png" alt="Exemplo usando array para as variáveis"></div>
+
+        <p>Usando o for, neste caso a variável <b>i</b> é usada como o index do array iniciando-se com 0</p>
+
+        <div><img src="./ImagensAulas/Aula17-Base 3.png" alt="Exemplo utilizando o for"></div>
+
+        <p>Aqui sendo mais complexo com o for:</p>
+        <p>caso opte por usar o in, ele representará o index do array</p>
+        <p>Caso seja por of, ele considerará o elemento citado, neste caso alunos.</p>
+
+        <div><img src="./ImagensAulas/Aula17-Base 4.png" alt="Exemplo de array com for selecionando in e of"></div>
+
+    </article>
+
+</body>
+
+</html>
+
+<!-- <script>
+
+    var frutas = ["Maçã", "Banana", "Laranja"];
+
+    for (var i = 0; i < frutas.length; i++) {
+        console.log(frutas[i]);
+    }
+
+    // Usando forEach:
+    frutas.forEach(function (fruta) {
+        console.log(fruta);
+    });
+
+</script> -->
+
+<!-- 
+<script>
+
+    var numeros = [1, 2, 3, 4, 5];
+    var duplicados = numeros.map(function (numero) {
+        return numero * 2;
+    });
+
+    // duplicados agora é [2, 4, 6, 8, 10]
+
+</script>
+ -->
+
+<script>
+
+    var vetor = new Array();
+
+    console.log(vetor)
+
+</script>
+
+<script>
+
+    var alunos = ["igor", "Mariana", "José", "Martha", "Alejandro Borges"];
+
+    console.log(alunos);
+    console.log(alunos.length);
+
+        // Imprime todos os alunos e diz quantos elementos são.
+
+</script>
+
+<script>
+    var aluno1 = "igor";
+    var aluno2 = "Mariana";
+    var aluno3 = "José";
+    var aluno4 = "Martha";
+    var aluno5 = "Alejandro Borges";
+
+    console.log(aluno1);
+    console.log(aluno2);
+    console.log(aluno3);
+    console.log(aluno4);
+    console.log(aluno5);
+
+
+</script>
+
+<script>
+
+    var alunos = ["igor", "Mariana", "José", "Martha", "Alejandro Borges"];
+
+    console.log(alunos[0]);
+    console.log(alunos[1]);
+    console.log(alunos[2]);
+    console.log(alunos[3]);
+    console.log(alunos[4]);
+
+</script>
+
+<script>
+
+    var alunos = ["igor", "Mariana", "José", "Martha", "Alejandro Borges"];
+
+    for (var i = 0; i < alunos.lenght; i++) {
+        console.log(alunos[i])
+    }
+
+</script>
+
+<script>
+
+    var alunos = ["igor", "Mariana", "José", "Martha", "Alejandro Borges"];
+
+    for (var i in alunos) {
+
+        console.log(i)
+        console.log(alunos[i])
+    }
+    // com in, pegará o index de cada array em alunos.
+
+    for (var aluno of alunos) {
+        console.log(aluno)
+    }
+// Com o of, pegará o elemento de cada index
+
+</script>
