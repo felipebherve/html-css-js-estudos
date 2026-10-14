@@ -2,6 +2,8 @@
 
 🇺🇸 English · 🇧🇷 [Português](README.pt-BR.md)
 
+🔗 **Portfolio:** this project and my others at [felipebherve.github.io](https://felipebherve.github.io/#projects).
+
 ## Where I was when I made this
 
 This is where my programming journey started, in **2023**. I was working outside of tech and studying on my own: I followed an online web development course (Programador BR) module by module, and wrote my own notes and lesson pages to make sure I really understood each idea. Everything I built later (the JavaScript course, the Django bootcamp, the degree) sits on top of what I practiced here.
