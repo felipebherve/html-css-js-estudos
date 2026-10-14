@@ -2,6 +2,8 @@
 
 🇧🇷 Português · 🇺🇸 [English](README.md)
 
+🔗 **Portfólio:** este e os meus outros projetos em [felipebherve.github.io](https://felipebherve.github.io/#projects).
+
 ## Em que momento eu fiz isto
 
 Foi aqui que minha jornada em programação começou, em **2023**. Eu trabalhava fora da área de tecnologia e estudava por conta própria: segui um curso online de desenvolvimento web (Programador BR) módulo por módulo e escrevi minhas próprias anotações e páginas de aula para ter certeza de que realmente entendia cada ideia. Tudo o que construí depois (o curso de JavaScript, o bootcamp de Django, a faculdade) se apoia no que pratiquei aqui.
